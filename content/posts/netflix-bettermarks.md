@@ -7,7 +7,7 @@ author: ["Axel Thauvin"]
 
 
 cover:
-    image: ""
+    image: "https://raw.githubusercontent.com/Axthauvin/Axthauvin/main/Netflix-icon.png"
     # can also paste direct link from external site
     # ex. https://i.ibb.co/K0HVPBd/paper-mod-profilemode.png
     alt: "Illustration"
@@ -96,8 +96,8 @@ It was made principaly in JS, but also added little bit of HTML and CSS for the 
 
 ### `If you want an access to the API i used, do not hesitate to contact me at ax.thauvin@gmail.com`
 ### Image who shows the result on Netflix
-![Image who shows the result on Netflix](https://github.com/Axthauvin/Netflix-better-marks/blob/main/NetflixBetterMarks-1.png)
+![Image who shows the result on Netflix](https://raw.githubusercontent.com/Axthauvin/Netflix-better-marks/main/NetflixBetterMarks-1.png)
 
 ### Menu of the extension
-![Menu of the extension](https://github.com/Axthauvin/Netflix-better-marks/blob/main/NetflixBetterMarks-5.png)
+![Menu of the extension](https://raw.githubusercontent.com/Axthauvin/Netflix-better-marks/main/NetflixBetterMarks-5.png)
 
