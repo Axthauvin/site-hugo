@@ -101,3 +101,8 @@ It was made principaly in JS, but also added little bit of HTML and CSS for the 
 ### Menu of the extension
 ![Menu of the extension](https://raw.githubusercontent.com/Axthauvin/Netflix-better-marks/main/NetflixBetterMarks-5.png)
 
+{{< myshortcode type="note" titre="Informations" >}}
+  Statut : Terminé <br>
+  Language utilisé : <a href="https://nodejs.org/en/">NodeJS (Javascript) </a>, HTML, CSS <br>
+{{< /myshortcode >}}
+
