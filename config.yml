@@ -51,7 +51,8 @@ menu:
           weight: 30
 
 
-          
-  
-
-    
+outputs:
+    home:
+        - HTML
+        - RSS
+        - JSON # is necessary

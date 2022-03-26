@@ -16,14 +16,15 @@ cover:
     caption: "Schéma illustrant le pacthfinding"
     relative: false # To use relative path for cover image, used in hugo Page-bundles
     responsiveImages: false
-    linkFullImages: true
-    ShowReadingTime: true
-    params:
-        ShowShareButtons: true
-        ShowReadingTime: true
+    
+        
 
 params:
     ShowCodeCopyButtons: true
+    ShowShareButtons: true
+    ShowReadingTime: true
+    linkFullImages: true
+    ShowReadingTime: true
 ---
 
 
