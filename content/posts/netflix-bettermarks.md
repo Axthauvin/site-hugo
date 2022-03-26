@@ -87,30 +87,16 @@ params:
     }
 </style>
 
-# Introduction
+<a href="https://github.com/Axthauvin/Netflix-better-marks/blob/main/Extension%20Netflix.zip"><h1 align="center"> Download link</h1></a>
+## Netflix-better-marks | Chrome extension
+***This is a [Chrome extension](https://developer.chrome.com/docs/extensions/), who adds marks from <a href="https://www.imdb.com/">IMDB</a>, <a href="https://www.allocine.fr/">Metacritic</a> & <a href="https://www.allocine.fr/">AlloCiné</a> on Netflix.***
 
-Le [Pathfinding](https://fr.wikipedia.org/wiki/Recherche_de_chemin) consiste à trouver comment se déplacer dans un environnement entre un point de départ et un point d'arrivée en prenant en compte différentes contraintes
+Made principaly in JS, but also added little bit of HTML and CSS for the control panel.
 
-## Description 
-Le programme consiste à emmener le joueur d'un point à un autre en utilisant le chemin le plus court.
-Le joueur est représenté par le carré rouge 🟥.
+### `If you want an access to the API i used, do not hesitate to contact me` *ax.thauvin@gmail.com*
+### Image who shows the result on Netflix
+![Image who shows the result on Netflix](https://github.com/Globateur/Netflix-better-marks/blob/main/NetflixBetterMarks-4.png)
 
-
-
-Lors du clic de la souris🖱️, il se dirigera automatiquement vers celle ci en évitant les murs.
-
-La partie interessante était d'ajouter la notion de ***contraintes***; qui a pour but d'ajouter des obstacles sur un chemin (par exemple des embouteillages), qui ralentissent le personnage (représentées par les carrés bleu 🟦).
-Ainsi, le programme doit déterminer le chemin le plus rapide, en prennant en compte sa longueur, ainsi que ses contraintes.
-
-
-
-{{< myshortcode type="note" titre="Informations" >}}
-  Statut : Terminé <br>
-  Language utilisé : <a href="https://www.python.org/">Python </a> <br>
-  Modules : <a href="http://tkinter.fdex.eu/doc/intro.html">Tkinter</a> | <a href="https://pypi.org/project/pathfinding/">Pathfinding</a> <br>
-{{< /myshortcode >}}
-
-## Liens 
-
-{{< button text="Voir sur github" path="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22">}}
+### Menu of the extension
+![Menu of the extension](https://github.com/Globateur/Netflix-better-marks/blob/main/NetflixBetterMarks-5.png)
 
