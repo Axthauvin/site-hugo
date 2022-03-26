@@ -8,6 +8,8 @@ author: ["Axel Thauvin"]
 
 
 
+
+
 cover:
     image: "https://axthauvin.github.io/Projets/Python-Pathfinding/Pathfind-Game.png"
     # can also paste direct link from external site

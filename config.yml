@@ -30,6 +30,10 @@ params:
           URL: "https://github.com/Axthauvin/site-hugo/blob/main/content"
           Text: "Proposer des modifications" # edit text
           appendFilePath: true # to append file path to Edit link
+    ShowCodeCopyButtons: true
+    ShowReadingTime: true
+    linkFullImages: true
+    ShowReadingTime: true
 
     
 
