@@ -88,7 +88,7 @@ params:
 </style>
 
 
-# [Download link](https://github.com/Axthauvin/Netflix-better-marks/blob/main/Extension%20Netflix.zip)
+## [Download link](https://github.com/Axthauvin/Netflix-better-marks/blob/main/Extension%20Netflix.zip)
 
 ***This is a [Chrome extension](https://developer.chrome.com/docs/extensions/), who adds marks from <a href="https://www.imdb.com/">IMDB</a>, <a href="https://www.allocine.fr/">Metacritic</a> & <a href="https://www.allocine.fr/">AlloCiné</a> on Netflix.***
 
