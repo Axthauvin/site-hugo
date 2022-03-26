@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Axel Thauvin</title>
+    <link>/</link>
+    <description>Recent content on Axel Thauvin</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>fr</language>
+    <lastBuildDate>Sat, 02 Nov 2019 12:50:18 +0100</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Pathfinding</title>
+      <link>/posts/pathfinding/</link>
+      <pubDate>Sat, 02 Nov 2019 12:50:18 +0100</pubDate>
+      
+      <guid>/posts/pathfinding/</guid>
+      <description>Introduction Le Pathfinding consiste à trouver comment se déplacer dans un environnement entre un point de départ et un point d&amp;rsquo;arrivée en prenant en compte différentes contraintes
+Description Le programme consiste à emmener le joueur d&amp;rsquo;un point à un autre en utilisant le chemin le plus court. Le joueur est représenté par le carré rouge 🟥.
+Lors du clic de la souris🖱️, il se dirigera automatiquement vers celle ci en évitant les murs.</description>
+    </item>
+    
+    <item>
+      <title>Creating a New Theme</title>
+      <link>/posts/create-a-new-theme/</link>
+      <pubDate>Sun, 28 Sep 2014 02:13:50 +0000</pubDate>
+      
+      <guid>/posts/create-a-new-theme/</guid>
+      <description>Description of my awesome project.</description>
+    </item>
+    
+    
+    
+    
+  </channel>
+</rss>

@@ -27,8 +27,8 @@ params:
         keys: ["title", "permalink", "summary", "content"]
     
     editPost:
-          URL: "https://github.com/Axthauvin/site-hugo/blob/main"
-          Text: "Suggest Changes" # edit text
+          URL: "https://github.com/Axthauvin/site-hugo/blob/main/content"
+          Text: "Proposer des modifications" # edit text
           appendFilePath: true # to append file path to Edit link
 
     
