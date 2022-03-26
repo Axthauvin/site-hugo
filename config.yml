@@ -1,7 +1,7 @@
 baseURL: /
 languageCode: fr
 title: Axel Thauvin
-theme: "PaperMod"
+theme: "hugo-PaperMod"
 
 params:
     homeInfoParams:
