@@ -1,0 +1,3 @@
+Lancer le serveur : hugo server
+
+Ajouter un post : hugo new posts/nom.md

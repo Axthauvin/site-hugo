@@ -1,0 +1,57 @@
+baseURL: /
+languageCode: fr
+title: Axel Thauvin
+theme: "PaperMod"
+
+params:
+    homeInfoParams:
+        Title: Je suis Axel Thauvin, passionné d'informatique & de programmation.
+        Content: Ici je posterai mes projets, ainsi que mes différentes offres de cours en lignes
+         
+  
+    socialIcons:
+            - name: "github"
+              url: "https://github.com/Axthauvin"
+            - name: "twitter"
+              url: "https://twitter.com/axthauvin"
+            - name: "youtube"
+              url: "https://www.youtube.com/channel/UCF6zpti-ice10f9RInxHyFA"
+    
+    fuseOpts:
+        isCaseSensitive: false
+        shouldSort: true
+        location: 0
+        distance: 1000
+        threshold: 0.4
+        minMatchCharLength: 0
+        keys: ["title", "permalink", "summary", "content"]
+    
+    editPost:
+          URL: "https://github.com/Axthauvin/site-hugo/blob/main"
+          Text: "Suggest Changes" # edit text
+          appendFilePath: true # to append file path to Edit link
+
+    
+
+menu:
+    main:
+        - identifier: search
+          name: Rechercher un projet
+          url: /search/
+          weight: 10
+        
+        - identifier: Curriculum vitæ
+          name: Curriculum vitæ
+          url: /cv/
+          weight: 20
+        
+        - identifier: cours
+          name: Cours en ligne
+          url: "https://axthauvin.github.io/Cours%20en%20ligne.html"
+          weight: 30
+
+
+          
+  
+
+    
