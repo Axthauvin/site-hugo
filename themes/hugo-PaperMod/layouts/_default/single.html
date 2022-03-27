@@ -1,5 +1,6 @@
 {{- define "main" }}
 
+
 <style>
   @media only screen and (hover: none) and (pointer: coarse){
 
@@ -57,19 +58,17 @@
 
 
   {{- if (.Param "curriculum") }}
-  <!-- {{- partial "cv-template/index.html"}} -->
-  <img src="https://github.com/Axthauvin/site-hugo/blob/main/themes/hugo-PaperMod/layouts/partials/cv-template/index.html">
-  <iframe src="http://localhost:1313"></iframe>
 
+  <style>
+    .main {
+      max-width: 90%;
+    }
+  </style>
+  
+  <iframe id="iFrame1" src="/cv-template" width="150%" onload='javascript:(function(o){o.style.height=o.contentWindow.document.body.scrollHeight+"px";}(this));' style="height:200px;width:100%;border:none;overflow:hidden;"></iframe>
 
+  
 
-    <div style="display: flex;">
-        <img src='{{ .Param  "imagecurriculum" }}' width="30%">
-        <div style="display : flex; flex-direction: column">
-          <h2>{{ .Param  "prénom" }}</h2>
-          <h1>{{ .Param  "nom" }}</h1>
-        </div>
-    </div>
   {{- end }}
 
   {{- if .Content }}
