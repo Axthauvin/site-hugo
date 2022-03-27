@@ -43,7 +43,7 @@ L'utilisateur dispose d'un trombinoscope sur lequel il lui suffit de chercher la
 
 {{< encadres type="danger" titre="À noter" >}}
  Afin de respecter le droit à l'image du personnel de l'établissement, <br>
- les photos et les noms présentés ont été générés par ordinateur
+ les photos et les noms présentés ici ont été générés par ordinateur
 {{< /encadres >}}
 
 
@@ -62,10 +62,14 @@ L'avantage pour l'utilisateur, c'est que j'ai crée une interface graphique pour
 
 ![Illustration modify](https://github.com/Axthauvin/site-hugo/blob/main/static/modify-absence.png?raw=true)
 
+Les quelques champs facilitent l'utilisation du programme.
+
 {{< encadres type="" titre="Information complémentaire" >}}
   Il est aussi possible d'ajouter et de supprimer des personnes dans la base de donnée seulement par quelques clics.
   
 {{< /encadres >}}
+
+![Illustration modify](https://github.com/Axthauvin/site-hugo/blob/main/static/Ajout-absence.png?raw=true)
 
 {{< encadres type="note" titre="💡Informations" >}}
   Statut : Terminé <br>
