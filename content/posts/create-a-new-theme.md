@@ -11,11 +11,11 @@ author = "Michael Henderson"
 
 Here's an example:
 
-{{< myshortcode type="note" titre="Test" >}}
+{{< encadres type="note" titre="Test" >}}
   Statut : Terminé <br>
   Language utilisé : Python <br>
   Modules : Tkinter | Pathfinding <br>
-{{< /myshortcode >}}
+{{< /encadres >}}
 
 ```
 ## this is a comment

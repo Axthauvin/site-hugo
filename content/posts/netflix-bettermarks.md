@@ -7,11 +7,10 @@ author: ["Axel Thauvin"]
 
 
 cover:
-    image: "https://raw.githubusercontent.com/Axthauvin/Axthauvin/main/Netflix-icon.png"
+    image: "Netflix-icon.png"
     # can also paste direct link from external site
     # ex. https://i.ibb.co/K0HVPBd/paper-mod-profilemode.png
     alt: "Illustration"
-    caption: "Schéma illustrant le pacthfinding"
     relative: false # To use relative path for cover image, used in hugo Page-bundles
     responsiveImages: false
     
@@ -24,68 +23,6 @@ params:
     linkFullImages: true
     ShowReadingTime: true
 ---
-
-
-
-<style>
-    .svg {
-        width: 3vh;
-        
-        vertical-align: middle;
-    }
-    .admonition {
-        margin-top: 20px;
-        padding: 0px;
-        margin-bottom: 20px;
-        border-radius: 4px;
-        text-align: left;
-        border: 0px;
-        border-left: 5px solid;
-        
-    }
-
-    .admonition h3 {
-        margin-top: 0px;
-        padding: 5px;
-        padding-left: 10px;
-    }
-
-    .admonition p {
-        padding-left: 10px;
-        padding-bottom: 16px;
-    }
-
-
-    
-
-    .admonition.note { /* csslint allow: adjoining-classes */
-        color: #a9a9b3;
-        background-color: #24393a;
-        border-color: #0bbaa2;
-        
-    }
-
-    .note h3 {
-        background-color: #204744;
-    }
-
-    .admonition.warning { /* csslint allow: adjoining-classes */
-        color: #c09853;
-        background-color: #fcf8e3;
-        border-color: #fbeed5;
-    }
-
-    .admonition.danger { /* csslint allow: adjoining-classes */
-        color: #b94a48;
-        background-color: #f2dede;
-        border-color: #eed3d7;
-    }
-
-    .admonition-title {
-        font-weight: bold;
-        text-align: left;
-    }
-</style>
 
 
 ## [Download link](https://github.com/Axthauvin/Netflix-better-marks/blob/main/Extension%20Netflix.zip)
@@ -101,8 +38,8 @@ It was made principaly in JS, but also added little bit of HTML and CSS for the 
 ### Menu of the extension
 ![Menu of the extension](https://raw.githubusercontent.com/Axthauvin/Netflix-better-marks/main/NetflixBetterMarks-5.png)
 
-{{< myshortcode type="note" titre="Informations" >}}
+{{< encadres type="note" titre="Informations" >}}
   Statut : Terminé <br>
   Language utilisé : <a href="https://nodejs.org/en/">NodeJS (Javascript) </a>, HTML, CSS <br>
-{{< /myshortcode >}}
+{{< /encadres >}}
 

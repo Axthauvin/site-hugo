@@ -5,8 +5,8 @@ theme: "hugo-PaperMod"
 
 params:
     homeInfoParams:
-        Title: Je suis Axel Thauvin, passionné d'informatique & de programmation.
-        Content: Ici je posterai mes projets, ainsi que mes différentes offres de cours en lignes
+        Title: Je suis Axel Thauvin, 
+        Content: Passionné d'informatique & de programmation. <br> test
          
   
     socialIcons:
@@ -40,7 +40,7 @@ params:
 menu:
     main:
         - identifier: search
-          name: Rechercher un projet
+          name: Rechercher
           url: /search/
           weight: 10
         
@@ -50,7 +50,7 @@ menu:
           weight: 20
         
         - identifier: cours
-          name: Cours en ligne
+          name: Mes cours
           url: "https://axthauvin.github.io/Cours%20en%20ligne.html"
           weight: 30
 
