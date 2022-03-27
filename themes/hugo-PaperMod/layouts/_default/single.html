@@ -63,7 +63,18 @@
     .main {
       max-width: 90%;
     }
+
+    @media only screen and (hover: none) and (pointer: coarse){
+
+      .main {
+        max-width: 100%;
+        padding: 0px;
+      }
+
+}
+
   </style>
+
   
   <iframe id="iFrame1" src="/cv-template" width="150%" onload='javascript:(function(o){o.style.height=o.contentWindow.document.body.scrollHeight+"px";}(this));' style="height:200px;width:100%;border:none;overflow:hidden;"></iframe>
 
