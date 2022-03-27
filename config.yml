@@ -16,7 +16,8 @@ params:
     homeInfoParams:
         Title: Je suis Axel Thauvin,
         Subtitle: passionné d'informatique et de programmation.
-        Content: Ici je posterai [***mes projets***](/projets), ainsi que mes différentes offres de [***cours en ligne***](https://axthauvin.github.io/Cours%20en%20ligne.html)
+        Content: Ici je posterai [***mes projets***](/projets), ainsi que mes différentes offres de [***cours en ligne***](https://axthauvin.github.io/Cours%20en%20ligne.html).
+        ContentSubtitle : Vous pouvez trouver mon *Curriculum vitæ* [***ici***](/cv)
          
   
     socialIcons:
@@ -26,6 +27,12 @@ params:
               url: "https://twitter.com/axthauvin"
             - name: "youtube"
               url: "https://www.youtube.com/channel/UCF6zpti-ice10f9RInxHyFA"
+            - name: "hackerrank"
+              url: "https://www.hackerrank.com/axthauvin"
+            - name: "email"
+              url: "http://mailto::axthauvin@gmail.com"
+            - name: "itchio"
+              url: "https://axthauvin.itch.io/"
     
     fuseOpts:
         isCaseSensitive: false

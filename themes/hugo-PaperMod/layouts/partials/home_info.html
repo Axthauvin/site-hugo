@@ -6,7 +6,8 @@
     </header>
 
     <section class="entry-content">
-        <p>{{ .Content | markdownify }}</p>
+        <p>{{ .Content | markdownify}}</p>
+        <p>{{ .ContentSubtitle | markdownify}}</p>
     </section>
     <footer class="entry-footer">
         {{ partial "social_icons.html" $.Site.Params.socialIcons }}
