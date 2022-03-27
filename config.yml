@@ -62,6 +62,11 @@ menu:
           url: /search/
           weight: 10
         
+        - identifier: porfolio
+          name: Portfolio
+          url: /projets/
+          weight: 15
+        
         - identifier: Curriculum vitæ
           name: Curriculum vitæ
           url: /cv/
