@@ -49,6 +49,7 @@ params:
     ShowReadingTime: true
     linkFullImages: true
     ShowReadingTime: true
+    comments: true
     
 
 
