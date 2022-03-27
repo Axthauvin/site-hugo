@@ -1,8 +1,10 @@
 {{- with $.Site.Params.homeInfoParams }}
 <article class="first-entry home-info">
-    <header class="entry-header">
+    <header class="entry-header" style="overflow: visible;">
         <h1>{{ .Title | markdownify }}</h1>
+        <h3 style="margin-top: 8px;">{{ .Subtitle | markdownify }}</h3>
     </header>
+
     <section class="entry-content">
         <p>{{ .Content | markdownify }}</p>
     </section>

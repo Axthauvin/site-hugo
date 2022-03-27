@@ -1,5 +1,5 @@
 ---
-title: "Netflix-better-marks | Chrome extension"
+title: "Netflix betterMarks | Chrome extension"
 date: 2021-04-22T22:01:06Z
 draft: false
 

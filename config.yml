@@ -3,10 +3,20 @@ languageCode: fr
 title: Axel Thauvin
 theme: "hugo-PaperMod"
 
+defaultContentLanguage: 🇫🇷
+languages:
+  🇫🇷:
+      title: Axel Thauvin
+      weight: 1
+  🇬🇧: 
+      weight: 2
+
 params:
+  
     homeInfoParams:
-        Title: Je suis Axel Thauvin, 
-        Content: Passionné d'informatique & de programmation. <br> test
+        Title: Je suis Axel Thauvin,
+        Subtitle: passionné d'informatique et de programmation.
+        Content: Ici je posterai [***mes projets***](/projets), ainsi que mes différentes offres de [***cours en ligne***](https://axthauvin.github.io/Cours%20en%20ligne.html)
          
   
     socialIcons:
@@ -34,6 +44,8 @@ params:
     ShowReadingTime: true
     linkFullImages: true
     ShowReadingTime: true
+    
+
 
     
 

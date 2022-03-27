@@ -110,8 +110,8 @@
                 {{- cond $is_search (" accesskey=/" | safeHTMLAttr) ("" | safeHTMLAttr ) }}>
                     <span {{- if eq $menu_item_url $page_url }} class="active" {{- end }}>
                         {{- .Pre }}
-                        {{- .Name -}}
-                        {{ .Post -}}
+                        {{- .Name -}} 
+                        {{ .Post -}} 
                     </span>
                 </a>
             </li>

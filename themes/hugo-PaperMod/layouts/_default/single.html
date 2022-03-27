@@ -1,7 +1,18 @@
 {{- define "main" }}
 
+<style>
+  @media only screen and (hover: none) and (pointer: coarse){
+
+      .contenaire {
+          flex-direction: column;
+      }
+
+  }
+  
+</style>
+
 <article class="post-single">
-  <div style="display: flex; align-items: center;">
+  <div style="display: flex; align-items: center;" class="contenaire">
     {{- $isHidden := .Params.cover.hidden | default .Site.Params.cover.hiddenInSingle | default .Site.Params.cover.hidden }}
     {{- partial "cover.html" (dict "cxt" . "IsHome" false "isHidden" $isHidden) }}
     <header class="post-header">
