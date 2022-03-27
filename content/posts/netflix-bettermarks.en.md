@@ -1,5 +1,5 @@
 ---
-title: "Netflix betterMarks | Chrome extension"
+title: "Netflix betterMarks chrome extension"
 date: 2021-04-22T22:01:06Z
 draft: false
 
@@ -13,7 +13,11 @@ cover:
     alt: "Illustration"
     relative: false # To use relative path for cover image, used in hugo Page-bundles
     responsiveImages: false
-    
+
+editPost:
+    URL: "https://github.com/Axthauvin/site-hugo/blob/main/content"
+    text : "Edit post"
+    appendFilePath: true
         
 
 params:

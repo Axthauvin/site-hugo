@@ -13,7 +13,12 @@ cover:
     #caption: "Schéma illustrant le pathfinding"
     relative: false # To use relative path for cover image, used in hugo Page-bundles
     responsiveImages: false
-    
+
+editPost:
+    URL: "https://github.com/Axthauvin/site-hugo/blob/main/content"
+    text : "Proposer des modifications"
+    appendFilePath: true
+
 ShowToc: true
 TocOpen: true  
 
@@ -45,7 +50,7 @@ Ainsi, le programme doit déterminer le chemin le plus rapide, en prennant en co
 
 {{< encadres type="note" titre="💡Informations" >}}
   Statut : Terminé <br>
-  Language utilisé : <a href="https://www.python.org/">Python </a> <br>
+  Langage utilisé : <a href="https://www.python.org/">Python </a> <br>
   Modules : <a href="http://tkinter.fdex.eu/doc/intro.html">Tkinter</a> | <a href="https://pypi.org/project/pathfinding/">Pathfinding</a> <br>
 {{< /encadres >}}
 

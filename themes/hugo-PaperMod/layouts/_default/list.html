@@ -5,6 +5,9 @@
 {{- else }} {{/* if not profileMode */}}
 
 {{- if not .IsHome | and .Title }}
+
+
+
 <header class="page-header">
   {{- partial "breadcrumbs.html" . }}
   <h1>{{ .Title }}</h1>
@@ -16,12 +19,15 @@
 </header>
 {{- end }}
 
+
+
 {{- if .Content }}
 <div class="post-content">
   {{- if not (.Param "disableAnchoredHeadings") }}
   {{- partial "anchored_headings.html" .Content -}}
   {{- else }}{{ .Content }}{{ end }}
 </div>
+
 {{- end }}
 
 {{- $pages := union .RegularPages .Sections }}
@@ -30,23 +36,34 @@
 {{- $pages = where site.RegularPages "Type" "in" site.Params.mainSections }}
 {{- end }}
 
+
+
+
 {{- $paginator := .Paginate $pages }}
 
 {{- if and .IsHome .Site.Params.homeInfoParams (eq $paginator.PageNumber 1) }}
+
 {{- partial "home_info.html" . }}
+
 {{- end }}
+
+<h1 style="margin-bottom: 50px; text-align: center; color: var(--primary);">Aux dernières nouvelles 📰</h1>
 
 {{- $term := .Data.Term }}
 {{- range $index, $page := $paginator.Pages }}
 
 {{- $class := "post-entry" }}
 
+
+
 {{- $user_preferred := or .Site.Params.disableSpecial1stPost .Site.Params.homeInfoParams }}
 {{- if (and $.IsHome (eq $paginator.PageNumber 1) (eq $index 0) (not $user_preferred)) }}
 {{- $class = "first-entry" }}
 {{- else if $term }}
 {{- $class = "post-entry tag-entry" }}
+
 {{- end }}
+
 
 
 <style>
@@ -68,6 +85,7 @@
 </style>
 
 
+
 <article class="{{ $class }}">
   <div style="display: flex; margin-bottom: 10px;">
     <div style="vertical-align: middle;" class="imagecontenaire">
@@ -85,6 +103,7 @@
         </h2>
       </header>
       <section class="entry-content">
+        <p>{{- if .Description }}{{- .Description }}{{- end }}</p>
         <p>{{ .Summary | plainify | htmlUnescape }}{{ if .Truncated }}...{{ end }}</p>
       </section>
     </div>
@@ -97,6 +116,7 @@
   {{- end }}
   {{- if not (.Param "hideMeta") }}
   <footer class="entry-footer">
+    
     {{- partial "post_meta.html" . -}}
   </footer>
   {{- end }}

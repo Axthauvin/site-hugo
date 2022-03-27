@@ -11,6 +11,97 @@
   
 </style>
 
+{{- if (.Param "isapage")}}
+<article class="post-single">
+  <div style="display: flex; align-items: center; margin-bottom: 20px;" class="contenaire">
+    
+    
+    <header class="post-header">
+      {{ partial "breadcrumbs.html" . }}
+      <h1 class="post-title">
+        {{ .Title }}
+        {{- if .Draft }}<sup><span class="entry-isdraft">&nbsp;&nbsp;[draft]</span></sup>{{- end }}
+      </h1>
+      {{- if .Description }}
+      <div class="post-description">
+        {{ .Description }}
+      </div>
+      {{- end }}
+      {{- if not (.Param "hideMeta") }}
+      {{- if (.Param "ShowToc") }}
+    {{- partial "toc.html" . }}
+    {{- end }}
+      <div class="post-meta">
+        {{- partial "post_meta.html" . -}}
+        {{- partial "translation_list.html" . -}}
+        {{- partial "edit_post.html" . -}}
+        {{- partial "post_canonical.html" . -}}
+      </div>
+      {{- end }}
+    </header>
+  </div>
+  
+  
+  
+  {{- if (.Param "ShowToc") }}
+  {{- partial "toc.html" . }}
+  {{- end }}
+
+
+  {{- if .Description }}
+  <div class="post-description">
+    {{ .Description }}
+  </div>
+  {{- end }}
+
+
+
+  {{- if (.Param "curriculum") }}
+  <!-- {{- partial "cv-template/index.html"}} -->
+
+
+
+
+    <div style="display: flex;">
+        <img src='{{ .Param  "imagecurriculum" }}' width="30%">
+        <div style="display : flex; flex-direction: column">
+          <h2>{{ .Param  "prénom" }}</h2>
+          <h1>{{ .Param  "nom" }}</h1>
+        </div>
+    </div>
+  {{- end }}
+
+  {{- if .Content }}
+  <div class="post-content">
+    {{- if not (.Param "disableAnchoredHeadings") }}
+    {{- partial "anchored_headings.html" .Content -}}
+    {{- else }}{{ .Content }}{{ end }}
+  </div>
+  {{- end }}
+
+  <footer class="post-footer">
+    {{- if .Params.tags }}
+    <ul class="post-tags">
+      {{- range ($.GetTerms "tags") }}
+      <li><a href="{{ .Permalink }}">{{ .LinkTitle }}</a></li>
+      {{- end }}
+    </ul>
+    {{- end }}
+    {{- if (.Param "ShowPostNavLinks") }}
+    {{- partial "post_nav_links.html" . }}
+    {{- end }}
+    {{- if (and .Site.Params.ShowShareButtons (ne .Params.disableShare true)) }}
+    {{- partial "share_icons.html" . -}}
+    {{- end }}
+  </footer>
+
+  {{- if (.Param "comments") }}
+  {{- partial "comments.html" . }}
+  {{- end }}
+</article>
+{{- end }}
+
+{{- if not (.Param "isapage") }}
 <article class="post-single">
   <div style="display: flex; align-items: center; margin-bottom: 20px;" class="contenaire">
     <div style="width: 30%;">
@@ -74,5 +165,6 @@
   {{- partial "comments.html" . }}
   {{- end }}
 </article>
+{{- end }}
 
 {{- end }}{{/* end main */}}

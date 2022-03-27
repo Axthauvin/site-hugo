@@ -4,6 +4,12 @@ date: 2021-07-15T14:45:35+01:00
 draft: false
 
 author : ["Axel Thauvin"]
+
+editPost:
+    URL: "https://github.com/Axthauvin/site-hugo/blob/main/content"
+    text : "Proposer des modifications"
+    appendFilePath: true
+
 ---
 
 # Introduction
