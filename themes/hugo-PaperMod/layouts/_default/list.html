@@ -7,7 +7,7 @@
 {{- if not .IsHome | and .Title }}
 <header class="page-header">
   {{- partial "breadcrumbs.html" . }}
-  <h1>{{ .Title }} </h1>
+  <h1>{{ .Title }}</h1>
   {{- if .Description }}
   <div class="post-description">
     {{ .Description | markdownify }}
@@ -48,19 +48,52 @@
 {{- $class = "post-entry tag-entry" }}
 {{- end }}
 
+
+<style>
+  img {
+    min-width: 100px;
+  }
+  @media only screen and (hover: none) and (pointer: coarse){
+
+  .imagecontenaire {
+    margin-right: 10px;
+  }
+  
+  figure {
+    width: 100%;
+    
+  }
+
+}
+</style>
+
+
 <article class="{{ $class }}">
-  {{- $isHidden := (.Site.Params.cover.hidden | default .Site.Params.cover.hiddenInList) }}
-  {{- partial "cover.html" (dict "cxt" . "IsHome" true "isHidden" $isHidden) }}
-  <header class="entry-header">
-    <h2>
-      {{- .Title }}
-      {{- if .Draft }}<sup><span class="entry-isdraft">&nbsp;&nbsp;[draft]</span></sup>{{- end }}
-    </h2>
-  </header>
+  <div style="display: flex; margin-bottom: 10px;">
+    <div style="vertical-align: middle;" class="imagecontenaire">
+      {{- $isHidden := (.Site.Params.cover.hidden | default .Site.Params.cover.hiddenInList) }}
+      {{- partial "cover.html" (dict "cxt" . "IsHome" true "isHidden" $isHidden) }}
+    </div>
+    
+
+    
+    <div style="display: inline; vertical-align: middle;">
+      <header class="entry-header">
+        <h2>
+          {{- .Title }}
+          {{- if .Draft }}<sup><span class="entry-isdraft">&nbsp;&nbsp;[draft]</span></sup>{{- end }}
+        </h2>
+      </header>
+      <section class="entry-content">
+        <p>{{ .Summary | plainify | htmlUnescape }}{{ if .Truncated }}...{{ end }}</p>
+      </section>
+    </div>
+    
+  </div>
+  
+  
   {{- if (ne (.Param "hideSummary") true) }}
-  <section class="entry-content">
-    <p>{{ .Summary | plainify | htmlUnescape }}{{ if .Truncated }}...{{ end }}</p>
-  </section>
+  
   {{- end }}
   {{- if not (.Param "hideMeta") }}
   <footer class="entry-footer">

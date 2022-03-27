@@ -10,7 +10,7 @@ cover:
     # can also paste direct link from external site
     # ex. https://i.ibb.co/K0HVPBd/paper-mod-profilemode.png
     alt: "Illustration"
-    caption: "Schéma illustrant le pathfinding"
+    #caption: "Schéma illustrant le pathfinding"
     relative: false # To use relative path for cover image, used in hugo Page-bundles
     responsiveImages: false
     

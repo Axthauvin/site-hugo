@@ -12,9 +12,12 @@
 </style>
 
 <article class="post-single">
-  <div style="display: flex; align-items: center;" class="contenaire">
-    {{- $isHidden := .Params.cover.hidden | default .Site.Params.cover.hiddenInSingle | default .Site.Params.cover.hidden }}
-    {{- partial "cover.html" (dict "cxt" . "IsHome" false "isHidden" $isHidden) }}
+  <div style="display: flex; align-items: center; margin-bottom: 20px;" class="contenaire">
+    <div style="width: 30%;">
+      {{- $isHidden := .Params.cover.hidden | default .Site.Params.cover.hiddenInSingle | default .Site.Params.cover.hidden }}
+      {{- partial "cover.html" (dict "cxt" . "IsHome" false "isHidden" $isHidden) }}
+    </div>
+    
     <header class="post-header">
       {{ partial "breadcrumbs.html" . }}
       <h1 class="post-title">

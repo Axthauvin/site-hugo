@@ -3,12 +3,12 @@ languageCode: fr
 title: Axel Thauvin
 theme: "hugo-PaperMod"
 
-defaultContentLanguage: 🇫🇷
+defaultContentLanguage: fr
 languages:
-  🇫🇷:
+  fr:
       title: Axel Thauvin
       weight: 1
-  🇬🇧: 
+  en: 
       weight: 2
 
 params:
@@ -40,6 +40,7 @@ params:
           URL: "https://github.com/Axthauvin/site-hugo/blob/main/content"
           Text: "Proposer des modifications" # edit text
           appendFilePath: true # to append file path to Edit link
+    
     ShowCodeCopyButtons: true
     ShowReadingTime: true
     linkFullImages: true

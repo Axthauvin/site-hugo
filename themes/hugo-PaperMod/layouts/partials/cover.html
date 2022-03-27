@@ -2,7 +2,8 @@
 {{- if (and .Params.cover.image (not $.isHidden)) }}
 {{- $alt := (.Params.cover.alt | default .Params.cover.caption | plainify) }}
 
-<figure class="entry-cover" style="margin: 0px; margin-right: 20px; width: 30%;">
+<figure class="entry-cover" style="margin: 0px; margin-right: 20px; height: auto;">
+    
     {{- $responsiveImages := (.Params.cover.responsiveImages | default .Site.Params.cover.responsiveImages) | default true }}
     {{- $addLink := (and .Site.Params.cover.linkFullImages (not $.IsHome)) }}
     {{- $cover := (.Resources.ByType "image").GetMatch (printf "*%s*" (.Params.cover.image)) }}

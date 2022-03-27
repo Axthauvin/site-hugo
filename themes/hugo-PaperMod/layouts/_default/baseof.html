@@ -5,6 +5,10 @@
     {{- partial "head.html" . }}
 </head>
 
+<style>
+    
+</style>
+
 <body class="
 {{- if (or (ne .Kind `page` ) (eq .Layout `archives`) (eq .Layout `search`)) -}}
 {{- print "list" -}}
@@ -14,6 +18,7 @@
 {{- end -}}
 " id="top">
     {{- partialCached "header.html" . .Page -}}
+    
     <main class="main">
         {{- block "main" . }}{{ end }}
     </main>
