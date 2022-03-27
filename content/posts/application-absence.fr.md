@@ -42,8 +42,7 @@ L'utilisateur dispose d'un trombinoscope sur lequel il lui suffit de chercher la
 ![trombinoscope](https://github.com/Axthauvin/site-hugo/blob/main/static/trombinoscope.png?raw=true)
 
 {{< encadres type="danger" titre="À noter" >}}
- Afin de respecter le droit à l'image du personnel de l'établissement, <br>
- les photos et les noms présentés ici ont été générés par ordinateur
+ Afin de respecter le droit à l'image du personnel de l'établissement, les photos et les noms présentés ici ont été générés par ordinateur
 {{< /encadres >}}
 
 
