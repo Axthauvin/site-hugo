@@ -60,8 +60,12 @@ Puis, un mail est envoyé à une liste de personnes prédéfinies (celles qui do
 L'avantage pour l'utilisateur, c'est que j'ai crée une interface graphique pour éditer la base de donnée. Ainsi, l'utilisateur même sans connaissance en programmation peut mettre facilement à jour la base de donnée grâce à une interface dédiée.
 
 
-![Illustration rouge](https://github.com/Axthauvin/site-hugo/blob/main/static/Capture-2.png?raw=true)
+![Illustration modify](https://github.com/Axthauvin/site-hugo/blob/main/static/modify-absence.png?raw=true)
 
+{{< encadres type="" titre="Information complémentaire" >}}
+  Il est aussi possible d'ajouter et de supprimer des personnes dans la base de donnée seulement par quelques clics.
+  
+{{< /encadres >}}
 
 {{< encadres type="note" titre="💡Informations" >}}
   Statut : Terminé <br>
