@@ -37,7 +37,7 @@ params:
 # Description 
 L'utilisateur dispose d'un trombinoscope sur lequel il lui suffit de chercher la photo de la personne absente.
 
-![trombinoscope](https://github.com/Axthauvin/site-hugo/blob/main/static/trombinoscope.png?raw=true)
+![trombinoscope](/trombinoscope.png)
 
 {{< encadres type="danger" titre="À noter" >}}
  Afin de respecter le droit à l'image du personnel de l'établissement, les photos et les noms présentés ici ont été générés par ordinateur
@@ -47,7 +47,7 @@ L'utilisateur dispose d'un trombinoscope sur lequel il lui suffit de chercher la
 
 Puis, par un simple clic 🖱️sur la photo de la personne concernée, elle est notée absente. *La photo devient alors rouge*. 
 
-![Illustration rouge](https://github.com/Axthauvin/site-hugo/blob/main/static/Capture-2.png?raw=true)
+![Illustration rouge](/Capture-2.png)
 
 Puis, un mail est envoyé à une liste de personnes prédéfinies (celles qui doivent savoir que la personne est absente)
 
@@ -57,7 +57,7 @@ Puis, un mail est envoyé à une liste de personnes prédéfinies (celles qui do
 L'avantage pour l'utilisateur, c'est que j'ai crée une interface graphique pour éditer la base de donnée. Ainsi, l'utilisateur même sans connaissance en programmation peut mettre facilement à jour la base de donnée grâce à une interface dédiée.
 
 
-![Illustration modify](https://github.com/Axthauvin/site-hugo/blob/main/static/modify-absence.png?raw=true)
+![Illustration modify](/modify-absence.png)
 
 Les quelques champs facilitent l'utilisation du programme.
 
@@ -66,7 +66,7 @@ Les quelques champs facilitent l'utilisation du programme.
   
 {{< /encadres >}}
 
-![Illustration modify](https://github.com/Axthauvin/site-hugo/blob/main/static/Ajout-absence.png?raw=true)
+![Illustration modify](/Ajout-absence.png)
 
 {{< encadres type="note" titre="💡Informations" >}}
   Statut : Terminé <br>

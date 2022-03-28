@@ -7,7 +7,7 @@ description : Comment j'ai caché du texte dans du texte. En manipulant les bits
 author: ["Axel Thauvin"]
 
 cover:
-    image: "https://delante.co/wp-content/uploads/2019/11/hidden-text-definicja.png"
+    image: "Cacherdutextedansdutexte.png"
     # can also paste direct link from external site
     # ex. https://i.ibb.co/K0HVPBd/paper-mod-profilemode.png
     alt: "Illustration"
