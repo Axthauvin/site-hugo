@@ -2,6 +2,18 @@
 {{- if (and .Params.cover.image (not $.isHidden)) }}
 {{- $alt := (.Params.cover.alt | default .Params.cover.caption | plainify) }}
 
+{{- if  $.Isarchives }}
+    <style>
+        .entry-cover img {
+            width: 100%;
+        }
+
+        figure {
+            width: 20%;
+        }
+    </style>
+{{- end }}
+
 <figure class="entry-cover" style="margin: 0px; margin-right: 20px; height: auto;">
     
     {{- $responsiveImages := (.Params.cover.responsiveImages | default .Site.Params.cover.responsiveImages) | default true }}

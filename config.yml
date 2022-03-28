@@ -11,13 +11,28 @@ languages:
   en: 
       weight: 2
 
+
 params:
-  
+    assets :
+      favicon : "ImageMoi.jpeg"
+    
     homeInfoParams:
-        Title: Je suis Axel Thauvin,
-        Subtitle: passionné d'informatique et de programmation.
-        Content: Ici je posterai [***mes projets***](/projets), ainsi que mes différentes offres de [***cours en ligne***](https://axthauvin.github.io/Cours%20en%20ligne.html).
-        ContentSubtitle : Vous pouvez trouver mon *Curriculum vitæ* [***ici***](/cv)
+        Title: Axel Thauvin
+        Subtitle: Passionné d'informatique et de programmation
+
+        Contents :
+            - text: Ici je posterai [***mes projets***](/projets), ainsi que mes différentes offres de [***cours en ligne***](https://axthauvin.github.io/Cours%20en%20ligne.html).
+            - text: Vous pouvez trouver mon *Curriculum vitæ* [***ici***](/cv)
+
+        ImageCover : "ImageMoi.jpeg"
+
+        #buttons:
+            #- name: Archive
+              #url: "/archive"
+            #- name: Github
+              #url: "https://github.com/"
+
+        
          
   
     socialIcons:
@@ -50,6 +65,9 @@ params:
     linkFullImages: true
     ShowReadingTime: true
     comments: true
+
+    ShowToc: true
+    TocOpen: false  
     
 
 

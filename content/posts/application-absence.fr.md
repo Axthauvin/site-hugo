@@ -19,8 +19,6 @@ editPost:
     text : "Proposer des modifications"
     appendFilePath: true
 
-ShowToc: true
-TocOpen: true  
 
 params:
     ShowCodeCopyButtons: true

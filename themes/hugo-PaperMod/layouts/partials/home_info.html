@@ -1,14 +1,63 @@
+<script>
+    new TypeIt("#hero", {
+  speed: 50,
+  startDelay: 900
+})
+</script>
+
+<style>
+    img {
+        border-radius: 50%;
+        width: 8rem;
+    }
+
+    .lediv {
+        margin-bottom: 20px;
+    }
+
+    .buttons {
+        justify-content: flex-start;
+        margin: 0;
+    }
+</style>
+
 {{- with $.Site.Params.homeInfoParams }}
 <article class="first-entry home-info">
     <header class="entry-header" style="overflow: visible;">
-        <h1>{{ .Title | markdownify }}</h1>
-        <h3 style="margin-top: 8px;">{{ .Subtitle | markdownify }}</h3>
+        <div class="lediv" style="display: flex; justify-content: center; width: 100%; flex-direction: column; align-items: center;">
+            <img src="{{ .ImageCover }}">
+            <h1>{{ .Title | markdownify }}</h1>
+            <h3 style="margin-top: 8px;">{{ .Subtitle | markdownify }}</h3>
+        </div>
+        
+        
     </header>
 
+    <!--
     <section class="entry-content">
         <p>{{ .Content | markdownify}}</p>
         <p>{{ .ContentSubtitle | markdownify}}</p>
     </section>
+-->
+
+    <section class="entry-content">
+        {{- with .contents }}
+            {{- range . }}
+                <p>{{ .text | markdownify}}</p>
+            {{- end }}
+        {{- end }}
+    </section>
+
+    {{- with .buttons }}
+        <div class="buttons">
+            {{- range . }}
+            <a class="button" href="{{ trim .url " " }}" rel="noopener" title="{{ .name | title }}">
+                <span class="button-inner">{{ .name | title }}</span>
+            </a>
+            {{- end }}
+        </div>
+    {{- end }}
+
     <footer class="entry-footer">
         {{ partial "social_icons.html" $.Site.Params.socialIcons }}
     </footer>

@@ -13,8 +13,7 @@ cover:
     relative: false # To use relative path for cover image, used in hugo Page-bundles
     responsiveImages: false
     
-ShowToc: true
-TocOpen: true  
+
 
 editPost:
     URL: "https://github.com/Axthauvin/site-hugo/blob/main/content"
@@ -33,7 +32,7 @@ params:
 ---
 
 {{< encadres type="" titre="❔Where can you find the project" >}}
-  Projet is currently hosted <a href="https://cacherdutexte.github.io">here</a>
+  Projet is currently hosted on <a href="https://cacherdutexte.github.io">https://cacherdutexte.github.io</a>
 {{< /encadres >}}
 
 

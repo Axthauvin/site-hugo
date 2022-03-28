@@ -3,7 +3,7 @@ title: "Cacher du texte dans du texte"
 date: 2021-11-04T22:35:57Z
 draft: false
 
-description : Comment j'ai caché du texte dans du texte
+description : Comment j'ai caché du texte dans du texte. En manipulant les bits du texte, j'ai réussi à cacher du texte dans du texte avec des caractères cachés.
 author: ["Axel Thauvin"]
 
 cover:
@@ -14,8 +14,6 @@ cover:
     relative: false # To use relative path for cover image, used in hugo Page-bundles
     responsiveImages: false
     
-ShowToc: true
-TocOpen: true  
 
 editPost:
     URL: "https://github.com/Axthauvin/site-hugo/blob/main/content"
@@ -34,7 +32,7 @@ params:
 ---
 
 {{< encadres type="" titre="❔Où trouver le projet" >}}
-  Le projet est actuellement hébergé <a href="https://cacherdutexte.github.io">ici</a>
+  Le projet est actuellement hébergé sur <a href="https://cacherdutexte.github.io">https://cacherdutexte.github.io</a>
 {{< /encadres >}}
 
 
