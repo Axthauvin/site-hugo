@@ -3,6 +3,10 @@ title: "Curriculum vitæ"
 draft: false
 searchHidden: true
 isapage : true
-commments: true
+comments: true
 
+curriculum : true
+english : true
+
+ShowToc: true
 ---

@@ -4,15 +4,51 @@ title: Axel Thauvin
 theme: "hugo-PaperMod"
 
 defaultContentLanguage: fr
+
 languages:
   fr:
-      title: Axel Thauvin
+      languageName : Français
+      languageAltTitle : Français
       weight: 1
-  en: 
+  en:
+      dateFormat : January 2, 2006
+      languageName : en
+      languageAltTitle : English
       weight: 2
+      params :
+          homeInfoParams :
+              Title : Axel Thauvin
+              ImageCover : "../ImageMoi.jpeg"
+              Subtitle : Passionate about computers and programming
+              Contents :
+                  - text: Here I will post [***my projects***](../projects), as well as my various offers of [***online courses***](https://axthauvin.github.io/Cours%20en%20ligne.html).
+                  - text: You can find my *resume* [***here***](/cv)
+      menu:
+          main:
+              - identifier: search
+                name: Search
+                url: /search/
+                weight: 10
+              
+              - identifier: porfolio
+                name: Portfolio
+                url: /projets/
+                weight: 15
+              
+              - identifier: Curriculum vitæ
+                name: Curriculum vitæ
+                url: /cv/
+                weight: 20
+              
+              - identifier: cours
+                name: Courses offers
+                url: "https://axthauvin.github.io/Cours%20en%20ligne.html"
+                weight: 30
 
 
 params:
+    
+    displayFullLangName : false
     assets :
       favicon : "ImageMoi.jpeg"
     

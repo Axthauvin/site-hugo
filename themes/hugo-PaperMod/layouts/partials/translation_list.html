@@ -1,6 +1,9 @@
 {{- if .IsTranslated -}}
 {{- if (ne .Layout "search") }}
-{{- if or .Params.author $.Site.Params.author (.Param "ShowReadingTime") (not .Date.IsZero) }}&nbsp;|&nbsp;{{- end -}}
+    {{- if (.Param "isapage") }}
+        &nbsp;|&nbsp;
+    {{- end}}
+    
 {{- end }}
 <ul class="i18n_list">
     {{- i18n "translations" | default "Translations" }}:
@@ -10,7 +13,7 @@
             {{- if (and $.Site.Params.displayFullLangName (.Language.LanguageName)) }}
             {{- .Language.LanguageName | emojify -}}
             {{- else }}
-            {{- .Lang | title -}}
+            {{ .Language.Params.languageAltTitle | default (.Language.LanguageName | emojify) | default (.Lang | title) }}
             {{- end -}}
         </a>
     </li>

@@ -45,6 +45,7 @@ L'utilisateur dispose d'un trombinoscope sur lequel il lui suffit de chercher la
 
 
 
+
 Puis, par un simple clic 🖱️sur la photo de la personne concernée, elle est notée absente. *La photo devient alors rouge*. 
 
 ![Illustration rouge](/Capture-2.png)

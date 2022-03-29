@@ -89,7 +89,7 @@
                             {{- if (and $.Site.Params.displayFullLangName (.Language.LanguageName)) }}
                             {{- .Language.LanguageName | emojify -}}
                             {{- else }}
-                            {{- .Lang | title -}}
+                            {{ .Language.Params.languageAltTitle | default (.Language.LanguageName | emojify) | default (.Lang | title) }}
                             {{- end -}}
                         </a>
                     </li>

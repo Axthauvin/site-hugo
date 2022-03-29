@@ -1,5 +1,5 @@
 ---
-title: "Pathfinding"
+title: "Recherche de chemin"
 date: 2019-11-02T12:50:18+01:00
 draft: false
 

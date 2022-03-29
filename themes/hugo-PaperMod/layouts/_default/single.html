@@ -76,8 +76,11 @@
   </style>
 
   
-  <iframe id="iFrame1" src="/cv-template" width="150%" onload='javascript:(function(o){o.style.height=o.contentWindow.document.body.scrollHeight+"px";}(this));' style="height:200px;width:100%;border:none;overflow:hidden;"></iframe>
-
+    {{- if not (.Param "english") }}
+      <iframe id="iFrame1" src="/cv-template" width="150%" onload='javascript:(function(o){o.style.height=o.contentWindow.document.body.scrollHeight+"px";}(this));' style="height:200px;width:100%;border:none;overflow:hidden;"></iframe>
+    {{- else }}
+      <iframe id="iFrame1" src="/en/cv-template/index.en.html" width="150%" onload='javascript:(function(o){o.style.height=o.contentWindow.document.body.scrollHeight+"px";}(this));' style="height:200px;width:100%;border:none;overflow:hidden;"></iframe>
+    {{- end }}
   
 
   {{- end }}
@@ -123,7 +126,7 @@
     <header class="post-header">
       {{ partial "breadcrumbs.html" . }}
       <h1 class="post-title">
-        {{ .Title }}
+        {{ .Title | markdownify}}
         {{- if .Draft }}<sup><span class="entry-isdraft">&nbsp;&nbsp;[draft]</span></sup>{{- end }}
       </h1>
       {{- if .Description }}
@@ -133,7 +136,9 @@
       {{- end }}
       {{- if not (.Param "hideMeta") }}
       <div class="post-meta">
-        {{- partial "post_meta.html" . -}}
+        {{- partial "post_meta.html" . -}} 
+      </div>
+      <div class="post-meta">
         {{- partial "translation_list.html" . -}}
         {{- partial "edit_post.html" . -}}
         {{- partial "post_canonical.html" . -}}

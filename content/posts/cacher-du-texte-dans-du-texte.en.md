@@ -1,8 +1,9 @@
 ---
-title: "Cacher du texte dans du texte"
+title: "Hide text within text"
 date: 2021-11-04T22:35:57Z
 draft: false
 
+description : How I hid text within text. By manipulating the bits of text, I managed to hide text within text with hidden characters.
 author: ["Axel Thauvin"]
 
 cover:
