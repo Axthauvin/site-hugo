@@ -128,7 +128,7 @@ menu:
         
         - identifier: cours
           name: Mes cours
-          url: "https://axthauvin.github.io/Cours%20en%20ligne.html"
+          url: "/cours/"
           weight: 30
 
 

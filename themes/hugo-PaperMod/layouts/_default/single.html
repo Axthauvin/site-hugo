@@ -20,7 +20,9 @@
     <header class="post-header">
       {{ partial "breadcrumbs.html" . }}
       <h1 class="post-title">
-        {{ .Title }}
+        {{- if (.Param "showtitle")}}
+          {{ .Title }}
+        {{- end }}
         {{- if .Draft }}<sup><span class="entry-isdraft">&nbsp;&nbsp;[draft]</span></sup>{{- end }}
       </h1>
       {{- if .Description }}
@@ -88,8 +90,10 @@
   {{- if .Content }}
   <div class="post-content">
     {{- if not (.Param "disableAnchoredHeadings") }}
-    {{- partial "anchored_headings.html" .Content -}}
-    {{- else }}{{ .Content }}{{ end }}
+      {{- partial "anchored_headings.html" .Content -}}
+    {{- else }}
+      {{ .Content }}
+    {{ end }}
   </div>
   {{- end }}
 
@@ -154,11 +158,15 @@
   {{- partial "toc.html" . }}
   {{- end }}
 
+  
   {{- if .Content }}
   <div class="post-content">
+    
     {{- if not (.Param "disableAnchoredHeadings") }}
-    {{- partial "anchored_headings.html" .Content -}}
-    {{- else }}{{ .Content }}{{ end }}
+      {{- partial "anchored_headings.html" .Content }}
+    {{- else }}
+      {{ .Content | markdownify}}
+    {{ end }}
   </div>
   {{- end }}
 
