@@ -43,11 +43,12 @@
 
 {{- if and .IsHome .Site.Params.homeInfoParams (eq $paginator.PageNumber 1) }}
 
-{{- partial "home_info.html" . }}
+
+
 
 {{- end }}
 
-<h1 style="margin-bottom: 50px; text-align: center; color: var(--primary);">Aux dernières nouvelles 📰</h1>
+<h1 style="margin-bottom: 50px; text-align: center; color: var(--primary);" id="s">Aux dernières nouvelles 📰</h1>
 
 {{- $term := .Data.Term }}
 {{- range $index, $page := $paginator.Pages }}
@@ -79,6 +80,10 @@
   figure {
     width: 100%;
     
+  }
+
+  body {
+    scroll-behavior: smooth;
   }
 
 }

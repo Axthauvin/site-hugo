@@ -6,7 +6,7 @@
 </head>
 
 <style>
-    
+
 </style>
 
 <body class="
@@ -18,6 +18,21 @@
 {{- end -}}
 " id="top">
     {{- partialCached "header.html" . .Page -}}
+    
+    {{- $pages := union .RegularPages .Sections }}
+
+    {{- if .IsHome }}
+    {{- $pages = where site.RegularPages "Type" "in" site.Params.mainSections }}
+    {{- end }}
+
+
+    {{- $paginator := .Paginate $pages }}
+
+    {{- if and .IsHome .Site.Params.homeInfoParams (eq $paginator.PageNumber 1) }}
+
+        {{- partial "home_info.html" . }}
+
+    {{- end }}
     
     <main class="main">
         {{- block "main" . }}{{ end }}

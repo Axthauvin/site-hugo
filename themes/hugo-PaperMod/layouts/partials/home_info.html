@@ -1,14 +1,9 @@
-<script>
-    new TypeIt("#hero", {
-  speed: 50,
-  startDelay: 900
-})
-</script>
+
 
 <style>
     img {
         border-radius: 50%;
-        width: 8rem;
+        width: 12rem;
     }
 
     .lediv {
@@ -19,50 +14,112 @@
         justify-content: flex-start;
         margin: 0;
     }
+    .first-entry  {
+        min-height: 100vh;
+        width: 100%;
+        /*margin: auto;*/
+        align-items: center;
+        position: relative;
+    }
+
+    
+
+    .backimage {
+        width: 100%;
+        background: --theme;
+        border-radius: 0;
+        position: absolute;
+        z-index: -1;
+    }
+
+    .entry-header {
+        width: 50%;
+        
+    }
+
+    .entry-header h3{
+        font-size: 1.5rem;
+    }
+
+    .entry-header h1 {
+        font-size: 2rem;
+    }
+
+    .little-things p {
+        font-size: 1rem;
+    }
+
+    .little-things {
+        width: 100%;
+        margin-left: 45%;
+    }
+
+    @media only screen and (hover: none) and (pointer: coarse){
+
+        img {
+         width: 12rem;
+        
+        }
+
+        p {
+            font-size: 16px;
+        }
+
+        .little-things {
+            width: 75%;
+            margin-left: 0;
+        }
+       
+    
+    }
+    
+
 </style>
 
+
+
 {{- with $.Site.Params.homeInfoParams }}
+
 <article class="first-entry home-info">
-    <header class="entry-header" style="overflow: visible;">
+    <header class="entry-header" style="overflow: visible;" id="f">
         <div class="lediv" style="display: flex; justify-content: center; width: 100%; flex-direction: column; align-items: center;">
             <img src="{{ .ImageCover }}">
             <h1 style="text-align: center;">{{ .Title | markdownify }}</h1>
             <h3 style="margin-top: 8px; text-align: center;">{{ .Subtitle | markdownify }}</h3>
         </div>
         
-        
+   
     </header>
 
-    <!--
-    <section class="entry-content">
-        <p>{{ .Content | markdownify}}</p>
-        <p>{{ .ContentSubtitle | markdownify}}</p>
-    </section>
--->
 
-    <section class="entry-content">
-        {{- with .contents }}
-            {{- range . }}
-                <p>{{ .text | markdownify}}</p>
+    <div class="little-things">
+        <section class="entry-content">
+            {{- with .contents }}
+                {{- range . }}
+                    <p>{{ .text | markdownify}}</p>
+                {{- end }}
             {{- end }}
+        </section>
+    
+        {{- with .buttons }}
+            <div class="buttons">
+                {{- range . }}
+                <a class="button" href="{{ trim .url " " }}" rel="noopener" title="{{ .name | title }}">
+                    <span class="button-inner">{{ .name | title }}</span>
+                </a>
+                {{- end }}
+            </div>
         {{- end }}
-    </section>
-
-    {{- with .buttons }}
-        <div class="buttons">
-            {{- range . }}
-            <a class="button" href="{{ trim .url " " }}" rel="noopener" title="{{ .name | title }}">
-                <span class="button-inner">{{ .name | title }}</span>
-            </a>
-            {{- end }}
-        </div>
-    {{- end }}
-
-    <footer class="entry-footer">
-        {{ partial "social_icons.html" $.Site.Params.socialIcons }}
-    </footer>
-
+    
+        <footer class="entry-footer">
+            {{ partial "social_icons.html" $.Site.Params.socialIcons }}
+        </footer>
+    </div>
+    
+    <img class="backimage" src="/wave-svg2.svg">
     
 </article>
+
+
 {{- end -}}
 
