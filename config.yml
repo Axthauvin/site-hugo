@@ -51,7 +51,7 @@ params:
     disableThemeToggle: true
     displayFullLangName : false
     assets :
-      favicon : "ImageMoi.jpeg"
+      favicon : "ImageIllustration - carre.jpg"
     
     homeInfoParams:
         Title: Axel Thauvin
@@ -61,7 +61,7 @@ params:
             - text: Ici je posterai [***mes projets***](/projets), ainsi que mes différentes offres de [***cours en ligne***](https://axthauvin.github.io/Cours%20en%20ligne.html).
             - text: Vous pouvez trouver mon *Curriculum vitæ* [***ici***](/cv)
 
-        ImageCover : "ImageMoi.jpeg"
+        ImageCover : "ImageIllustration - carre.jpg"
 
         #buttons:
             #- name: Archive
