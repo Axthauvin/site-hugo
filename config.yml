@@ -47,7 +47,8 @@ languages:
 
 
 params:
-    
+    defaultTheme: dark
+    disableThemeToggle: true
     displayFullLangName : false
     assets :
       favicon : "ImageMoi.jpeg"
