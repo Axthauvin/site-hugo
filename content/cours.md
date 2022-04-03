@@ -17,17 +17,28 @@ Il y en a pour tous les goûts, n'hésitez pas à jeter un œil aux différentes
         a:hover {
             opacity : 0.8
         }
+        img{
+            display : inline;
+            height : 50vh;
+            width : auto;
+        }
+        a {
+            display : inline;
+        }
     </style>
-    <a href="/cours-things/unity">
-        <img src = "/CardUnity.png">
-    </a>
-    <a href="/cours-things/scratch">
-        <img src = "/CardScratch.png">
-    </a>
-    <a href="/cours-things/appinventor">
-        <img src = "/CardAppInventor.png">
-    </a>
-    <a href="/cours-things/logiciels">
-        <img src = "/CardLogiciels.png">
-    </a>
+    <div style="text-align : center">
+        <a href="/cours-things/scratch">
+            <img src = "/CardScratch.png">
+        </a>
+        <a href="/cours-things/unity">
+            <img src = "/CardUnity.png">
+        </a>
+        <a href="/cours-things/appinventor">
+            <img src = "/CardAppInventor.png">
+        </a>
+        <a href="/cours-things/logiciels">
+            <img src = "/CardLogiciels.png">
+        </a>
+    </div>
+    
 {{</ flexbox >}}
