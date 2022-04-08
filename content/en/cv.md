@@ -4,9 +4,14 @@ draft: false
 searchHidden: true
 isapage : true
 comments: true
-
 curriculum : true
-english : true
 
-ShowToc: true
+ShowToc: false
+Showreadingtime : false
+showtitle : true
+showtranslations : true
+
 ---
+
+
+{{< cv-en >}}

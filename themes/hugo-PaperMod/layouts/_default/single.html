@@ -78,11 +78,7 @@
   </style>
 
   
-    {{- if not (.Param "english") }}
-      <iframe id="iFrame1" src="/cv-template" width="150%" onload='javascript:(function(o){o.style.height=o.contentWindow.document.body.scrollHeight+"px";}(this));' style="height:200px;width:100%;border:none;overflow:hidden;"></iframe>
-    {{- else }}
-      <iframe id="iFrame1" src="/en/cv-template/index.en.html" width="150%" onload='javascript:(function(o){o.style.height=o.contentWindow.document.body.scrollHeight+"px";}(this));' style="height:200px;width:100%;border:none;overflow:hidden;"></iframe>
-    {{- end }}
+    
   
 
   {{- end }}
@@ -96,6 +92,12 @@
     {{ end }}
   </div>
   {{- end }}
+
+    {{- if not (.Param "english") }}
+    
+    {{- else }}
+      <iframe id="iFrame1" src="/en/cv-template/index.en.html" width="150%" onload='javascript:(function(o){o.style.height=o.contentWindow.document.body.scrollHeight+"px";}(this));' style="height:200px;width:100%;border:none;overflow:hidden;"></iframe>
+    {{- end }}
 
   <footer class="post-footer">
     {{- if .Params.tags }}

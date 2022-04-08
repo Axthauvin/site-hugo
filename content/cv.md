@@ -6,6 +6,11 @@ isapage : true
 comments: true
 curriculum : true
 
-ShowToc: true
+ShowToc: false
+Showreadingtime : false
+showtitle : true
+
 ---
 
+
+{{< cv >}}

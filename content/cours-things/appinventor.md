@@ -30,7 +30,7 @@ Pour plus d'informations, regardez [le site d'App Inventor](https://appinventor.
 
 ## App Inventor à quoi ça ressemble ?
 
-On compare souvent App Inventor à Scratch, car c'est les même créateur ! App inventor fonctionne en empilant des blocs, ce qui fait que c'est très accessible pour les enfants.
+On compare souvent App Inventor à [Scratch](/cours-things/scratch), car c'est les même créateur ! App inventor fonctionne en empilant des blocs, ce qui fait que c'est très accessible pour les enfants.
 ![Exemple d'app inventor](/AppInventorCours1.png)
 *Voilà un exemple de **blocs** d'App Inventor*
 

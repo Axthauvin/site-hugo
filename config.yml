@@ -18,7 +18,7 @@ languages:
       params :
           homeInfoParams :
               Title : Axel Thauvin
-              ImageCover : "../ImageMoi.jpeg"
+              ImageCover : "../ImageIllustration - carre.jpg"
               Subtitle : Passionate about computers and programming
               Contents :
                   - text: Here I will post [***my projects***](../projects), as well as my various offers of [***online courses***](https://axthauvin.github.io/Cours%20en%20ligne.html).
@@ -40,10 +40,6 @@ languages:
                 url: /cv/
                 weight: 20
               
-              - identifier: cours
-                name: Courses offers
-                url: "https://axthauvin.github.io/Cours%20en%20ligne.html"
-                weight: 30
 
 
 params:
