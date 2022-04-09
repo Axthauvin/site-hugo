@@ -29,21 +29,22 @@ params:
 ---
 
 
-## [Download link](https://github.com/Axthauvin/Netflix-better-marks/blob/main/Extension%20Netflix.zip)
+## [Lien de téléchargement 👇🏻](https://github.com/Axthauvin/Netflix-better-marks/blob/main/Extension%20Netflix.zip) 
 
-***This is a [Chrome extension](https://developer.chrome.com/docs/extensions/), who adds marks from <a href="https://www.imdb.com/">IMDB</a>, <a href="https://www.allocine.fr/">Metacritic</a> & <a href="https://www.allocine.fr/">AlloCiné</a> on Netflix.***
 
-It was made principaly in JS, but also added little bit of HTML and CSS for the control panel.
+***Netflix better Marks est une [extension Chrome](https://developer.chrome.com/docs/extensions/), qui ajoute des notes de <a href="https://www.imdb.com/">IMDB</a>, <a href="https://www.allocine.fr/">Metacritique</a> & <a href="https://www.allocine.fr/">AlloCiné</a> sur Netflix.***
 
-### `If you want an access to the API i used, do not hesitate to contact me at ax.thauvin@gmail.com`
-### Image who shows the result on Netflix
+
+### `Si vous voulez un accès aux API utilisées, n'hésitez pas à me contacter`
+### Image qui montre le résultat sur Netflix :
 ![Image who shows the result on Netflix](https://raw.githubusercontent.com/Axthauvin/Netflix-better-marks/main/NetflixBetterMarks-1.png)
 
-### Menu of the extension
+### Menu de l'extension
 ![Menu of the extension](https://raw.githubusercontent.com/Axthauvin/Netflix-better-marks/main/NetflixBetterMarks-5.png)
 
 {{< encadres type="note" titre="Informations" >}}
   Statut : Terminé <br>
   Language utilisé : <a href="https://nodejs.org/en/">NodeJS (Javascript) </a>, HTML, CSS <br>
 {{< /encadres >}}
+
 

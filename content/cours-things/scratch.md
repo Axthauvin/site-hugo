@@ -14,8 +14,7 @@ extensions : [
 ---
 
 {{< hidehtml >}}
-    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,300&amp;display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Raleway&amp;display=swap" rel="stylesheet">
+    
     <style>
         body {
             transition: background-color 1s;

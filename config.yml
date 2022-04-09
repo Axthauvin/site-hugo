@@ -21,14 +21,11 @@ languages:
               ImageCover : "../ImageIllustration - carre.jpg"
               Subtitle : Passionate about computers and programming
               Contents :
-                  - text: Here I will post [***my projects***](../projects), as well as my various offers of [***online courses***](https://axthauvin.github.io/Cours%20en%20ligne.html).
-                  - text: You can find my *resume* [***here***](/cv)
+                  - text: Here I will post [***my projects***](../projects), as well as my various offers of [***online courses***](/cours).
+                  - text: You can find my *resume* [***here***](/cv).
       menu:
           main:
-              - identifier: search
-                name: Search
-                url: /search/
-                weight: 10
+              
               
               - identifier: porfolio
                 name: Portfolio
@@ -39,6 +36,11 @@ languages:
                 name: Curriculum vitæ
                 url: /cv/
                 weight: 20
+
+              - identifier: search
+                name: Search
+                url: /search/
+                weight: 50
               
 
 
@@ -54,8 +56,8 @@ params:
         Subtitle: Passionné d'informatique et de programmation
 
         Contents :
-            - text: Ici je posterai [***mes projets***](/projets), ainsi que mes différentes offres de [***cours en ligne***](https://axthauvin.github.io/Cours%20en%20ligne.html).
-            - text: Vous pouvez trouver mon *Curriculum vitæ* [***ici***](/cv)
+            - text: Ici je posterai [***mes projets***](/projets), ainsi que mes différentes offres de [***cours en ligne***](/cours).
+            - text: Vous pouvez trouver mon *Curriculum vitæ* [***ici***](/cv).
 
         ImageCover : "ImageIllustration - carre.jpg"
 
@@ -108,10 +110,7 @@ params:
 
 menu:
     main:
-        - identifier: search
-          name: Rechercher
-          url: /search/
-          weight: 10
+        
         
         - identifier: porfolio
           name: Portfolio
@@ -127,6 +126,11 @@ menu:
           name: Mes cours
           url: "/cours/"
           weight: 30
+        
+        - identifier: search
+          name: Rechercher
+          url: /search/
+          weight: 50
 
 
 outputs:
