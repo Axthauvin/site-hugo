@@ -48,7 +48,14 @@
 
 {{- end }}
 
-<h1 style="margin-bottom: 50px; text-align: center; color: var(--primary);" id="s">Aux dernières nouvelles 📰</h1>
+
+{{- if .Site.Params.homeInfoParams.lastNews }}
+
+<h1 style="margin-bottom: 50px; text-align: center; color: var(--primary);" id="s"> {{.Site.Params.homeInfoParams.lastNews}} </h1>
+
+{{- end }}
+
+
 
 {{- $term := .Data.Term }}
 {{- range $index, $page := $paginator.Pages }}

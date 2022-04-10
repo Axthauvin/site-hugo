@@ -35,12 +35,13 @@ params:
 
 
 # Description 
-L'utilisateur dispose d'un trombinoscope sur lequel il lui suffit de chercher la photo de la personne absente.
+L'utilisateur dispose d'un trombinoscope sur lequel il lui suffit de chercher la photo de la personne absente, ou de chercher le nom dans la barre de recherche dédiée.
 
 ![trombinoscope](/trombinoscope.png)
+*Interface de l'application*
 
 {{< encadres type="danger" titre="À noter" >}}
- Afin de respecter le droit à l'image du personnel de l'établissement, les photos et les noms présentés ici ont été générés par ordinateur
+ Afin de respecter le droit à l'image du personnel de l'établissement, les photos et les noms présentés ici ont été générés par ordinateur, et ne sont en aucun cas des vrais personnes.
 {{< /encadres >}}
 
 
@@ -50,12 +51,19 @@ Puis, par un simple clic 🖱️sur la photo de la personne concernée, elle est
 
 ![Illustration rouge](/Capture-2.png)
 
-Puis, un mail est envoyé à une liste de personnes prédéfinies (celles qui doivent savoir que la personne est absente)
+Ainsi, il est très facile de voir si une personne du personnel a déjà été préalablement marquée absente par quelqu'un d'autre. 
 
+{{<line_break>}}
+
+Puis, ***un mail est envoyé*** à une liste de personnes prédéfinies (celles qui doivent savoir que la personne est absente)
+![Exemple mail envoyé](/Absence-Email.png)
+*Exemple de mail envoyé par le programme*
+
+{{<line_break>}}
 
 ### Un programme complètement autonome
 
-L'avantage pour l'utilisateur, c'est que j'ai crée une interface graphique pour éditer la base de donnée. Ainsi, l'utilisateur même sans connaissance en programmation peut mettre facilement à jour la base de donnée grâce à une interface dédiée.
+L'avantage pour l'utilisateur, c'est que j'ai créé une interface graphique pour éditer la base de données. Ainsi, l'utilisateur même sans connaissance en programmation peut mettre facilement à jour la base de données grâce à une interface dédiée.
 
 
 ![Illustration modify](/modify-absence.png)
@@ -74,10 +82,5 @@ Les quelques champs facilitent l'utilisation du programme.
   Langage utilisé : <a href="https://www.php.net/">PHP </a> <br>
 {{< /encadres >}}
 
-### Liens 
-
-{{< button text="Voir sur github" path="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22">}}
-
-{{< chat cactus-comments >}}
 
 
