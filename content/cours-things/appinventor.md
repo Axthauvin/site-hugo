@@ -1,11 +1,13 @@
 ---
 title: "Cours de AppInventor"
+hidemeta : true
 draft: false
 searchHidden: true
 isapage : true
 comments: true
 ShowToc: false
 ShowReadingTime: false
+
 ---
 {{< hidehtml >}}
     <link href="https://fonts.googleapis.com/css?family=Raleway&amp;display=swap" rel="stylesheet">

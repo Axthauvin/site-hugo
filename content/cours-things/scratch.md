@@ -1,6 +1,7 @@
 ---
 title: "Cours de Scratch"
 showtitle : false
+hidemeta : true
 draft: false
 searchHidden: true
 isapage : true

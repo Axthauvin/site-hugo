@@ -1,7 +1,8 @@
 ---
 title: "Programme des cours de Scratch"
 showtitle : true
-draft: false
+hidemeta : true
+draft: true
 searchHidden: true
 isapage : true
 comments: true

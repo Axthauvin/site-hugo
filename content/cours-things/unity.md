@@ -1,5 +1,6 @@
 ---
 title: "Cours de Unity"
+hidemeta : true
 draft: false
 searchHidden: true
 isapage : true

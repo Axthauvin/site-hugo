@@ -1,6 +1,7 @@
 baseURL: "https://axthauvin.onrender.com/"
 languageCode: fr
 title: Axel Thauvin
+paginate: 4
 theme: "hugo-PaperMod"
 
 defaultContentLanguage: fr
@@ -48,6 +49,7 @@ languages:
 
 
 params:
+   
     defaultTheme: dark
     disableThemeToggle: true
     displayFullLangName : false

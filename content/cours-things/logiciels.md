@@ -1,5 +1,6 @@
 ---
 title: "Cours Logiciels"
+hidemeta : true
 draft: false
 searchHidden: true
 isapage : true
