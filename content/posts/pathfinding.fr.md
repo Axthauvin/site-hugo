@@ -6,7 +6,7 @@ draft: false
 author: ["Axel Thauvin"]
 
 cover:
-    image: "https://axthauvin.github.io/Projets/Python-Pathfinding/Pathfind-Game.png"
+    image: "/Pathfind-Game.png"
     # can also paste direct link from external site
     # ex. https://i.ibb.co/K0HVPBd/paper-mod-profilemode.png
     alt: "Illustration"
