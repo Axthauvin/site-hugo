@@ -29,7 +29,7 @@ params:
 ---
 
 
-## [Lien de téléchargement 👇🏻](https://github.com/Axthauvin/Netflix-better-marks/raw/main/Extension%20Netflix.zip) 
+## [Lien de téléchargement 👇🏻](https://github.com/Axthauvin/Netflix-better-marks/releases) 
 
 
 ***Netflix better Marks est une [extension Chrome](https://developer.chrome.com/docs/extensions/), qui ajoute des notes de [IMDB](https://www.imdb.com/), [Metacritique](https://www.metacritic.com/) & [AlloCiné](https://www.allocine.fr/)</a> sur Netflix.***
