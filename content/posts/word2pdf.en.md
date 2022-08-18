@@ -39,7 +39,7 @@ This project is a graphical interface to the [docx2pdf] module (https://pypi.org
 Having to search for a site to convert words into PDF was too painful.
 Today, I can in a few clicks 🖱️ overcome this problem.
 
-![Illustration how to find Word2pdf](/Search-word2pdf.png)
+![Illustration how to find Word2pdf](/Recherche-word2pdf.png)
 As you can see, it is very easily accessible
 
 ### The interface
