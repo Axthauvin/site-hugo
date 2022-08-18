@@ -73,7 +73,7 @@ L'objectif est d'apprendre les bases de la programmation (**boucles, coordonnée
         }
     </style>
     <div style ="display : flex; justify-content : center">
-        <a href="/cours-things/scratch-programme" class="btn purple" style="box-shadow: 0px 5px 0px 0px #82409d;"> <img src="https://axthauvin.github.io/Images/See.svg" height="20px" style="width : fit-content; margin : 0px; display : inline; margin-right : 20px">Voir le programme des cours</a>
+        <a href="/cours-things/scratch-programme" class="btn purple" style="box-shadow: 0px 5px 0px 0px #82409d;"> <img src="/See.svg" height="20px" style="width : fit-content; margin : 0px; display : inline; margin-right : 20px">Voir le programme des cours</a>
     </div>
     
 

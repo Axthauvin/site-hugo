@@ -2,7 +2,7 @@
 title: "Programme des cours de Scratch"
 showtitle : true
 hidemeta : true
-draft: true
+draft: false
 searchHidden: true
 isapage : true
 comments: true
@@ -52,8 +52,11 @@ ShowReadingTime: false
         .red {
             background-color: #e74c3c;
         }
+        em {
+            color : white;
+        }
     </style>
-    <a href="/cours-things/scratch" class="btn red" style="box-shadow: 0px 5px 0px 0px #ce3323; "> <img src="https://axthauvin.github.io/Images/See.svg" height="20px" style="width : fit-content; margin : 0px; display : inline; margin-right : 20px; transform: scaleX(-1);">Revenir au descriptif</a>
+    <a href="/cours-things/scratch" class="btn red" style="box-shadow: 0px 5px 0px 0px #ce3323; "> <img src="/See.svg" height="20px" style="width : fit-content; margin : 0px; display : inline; margin-right : 20px; transform: scaleX(-1);">Revenir au descriptif</a>
 
 {{</ hidehtml >}}
 
