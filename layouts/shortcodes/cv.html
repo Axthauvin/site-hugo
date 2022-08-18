@@ -11,7 +11,8 @@
 <script>
     a = document.getElementsByTagName("body");
     a[0].className = "";
-    
+  
+
     
 </script>
 
@@ -7734,6 +7735,9 @@ footer a:not(.nav-link) {
     margin-bottom: -80px;
     margin-left: 0; } }
 
+  ul {
+    padding: 0;
+  }
 
 </style>
 
@@ -7773,7 +7777,7 @@ footer a:not(.nav-link) {
               <div class="pb-1">Age</div>
             </div>
             <div class="col-sm-8">
-              <div class="pb-1 text-secondary">17</div>
+              <div class="pb-1 text-secondary" id="ageduaxel">17</div>
             </div>
             <div class="col-sm-4">
               <div class="pb-1">Email</div>
@@ -7925,3 +7929,23 @@ footer a:not(.nav-link) {
     
 </article>
 </html>
+
+<script>
+
+
+  function getAge(dateString) {
+    var today = new Date();
+    var birthDate = new Date(dateString);
+    var age = today.getFullYear() - birthDate.getFullYear();
+    var m = today.getMonth() - birthDate.getMonth();
+    if (m < 0 || (m === 0 && today.getDate() < birthDate.getDate())) {
+      age--;
+    }
+    return age;
+  }
+
+  monage = getAge("2004/09/10");
+
+  document.getElementById("ageduaxel").textContent = monage
+  
+</script>
