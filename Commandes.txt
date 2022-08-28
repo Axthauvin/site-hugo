@@ -1,3 +1,3 @@
-Lancer le serveur : hugo server
+Lancer le serveur : passer par le fichier start-test-server.bat
 
 Ajouter un post : hugo new posts/nom.md
