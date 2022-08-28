@@ -3,7 +3,7 @@ title: "Cours de AppInventor"
 hidemeta : true
 draft: false
 searchHidden: true
-isapage : true
+isapage : false
 comments: true
 ShowToc: false
 ShowReadingTime: false
