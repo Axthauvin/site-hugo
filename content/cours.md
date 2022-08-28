@@ -27,16 +27,16 @@ Il y en a pour tous les goûts, n'hésitez pas à jeter un œil aux différentes
         }
     </style>
     <div style="text-align : center">
-        <a href="/cours-things/scratch">
+        <a href="/z-cours-things/scratch">
             <img src = "/CardScratch.png">
         </a>
-        <a href="/cours-things/unity">
+        <a href="/z-cours-things/unity">
             <img src = "/CardUnity.png">
         </a>
-        <a href="/cours-things/appinventor">
+        <a href="/z-cours-things/appinventor">
             <img src = "/CardAppInventor.png">
         </a>
-        <a href="/cours-things/logiciels">
+        <a href="/z-cours-things/logiciels">
             <img src = "/CardLogiciels.png">
         </a>
     </div>

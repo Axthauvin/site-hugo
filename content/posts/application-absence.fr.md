@@ -2,6 +2,7 @@
 title: "Application Absence"
 date: 2022-03-24T21:18:50+02:00
 draft: false
+isapage : true
 
 author: ["Axel Thauvin"]
 
