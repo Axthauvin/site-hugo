@@ -20,7 +20,7 @@ languages:
       params :
           homeInfoParams :
               Title : Axel Thauvin
-              ImageCover : "../ImageIllustration - carre.jpg"
+              ImageCover : "../ID_axel_carre.png"
               Subtitle : Passionate about computers and programming
               LastNews : Last news 📰
               Contents :
@@ -54,7 +54,7 @@ params:
     disableThemeToggle: true
     displayFullLangName : false
     assets :
-      favicon : "ImageIllustration - carre.jpg"
+      favicon : "ID_axel_carre.png"
     
     homeInfoParams:
         Title: Axel Thauvin
@@ -65,7 +65,7 @@ params:
             - text: Vous pouvez trouver mon *Curriculum vitæ* [***ici***](/cv).
         lastNews : Aux dernières nouvelles 📰
 
-        ImageCover : "ImageIllustration - carre.jpg"
+        ImageCover : "ID_axel_carre.png"
 
         #buttons:
             #- name: Archive
