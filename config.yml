@@ -89,6 +89,8 @@ params:
               url: "http://mailto::axthauvin@gmail.com"
             - name: "itchio"
               url: "https://axthauvin.itch.io/"
+            - name: "linkedin"
+              url: "https://www.linkedin.com/in/axel-thauvin-37627b260/"
     
     fuseOpts:
         isCaseSensitive: false
