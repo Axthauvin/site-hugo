@@ -35,13 +35,17 @@ Vous pouvez aussi jeter un oeil à [l'Asset store](https://assetstore.unity.com/
     <iframe width="640" height="360" src="https://www.youtube.com/embed/ukdWUgXiCWg?list=TLGG9q7N494nYHEwMzA0MjAyMQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 {{</ hidehtml >}}
 
-*Voilà un apperçu de ce qui est possible de faire avec Unity.*
+*Voilà un aperçu de ce qui est possible de faire avec Unity.*
+
+
+
 {{< hidehtml >}}
-    <video id="vid2" height="259" playsinline="true" autoplay="true" muted="" loop="true" style="margin-top: 25px; background-color: aliceblue;"><source src="https://axthauvin.github.io/Videos/Animation_Unity.mp4" type="video/mp4">Votre navigateur ne supporte pas cette vidéo.</video>
+<!-- 
+    <video id="vid2" height="259" playsinline="true" autoplay="true" muted="" loop="true" style="margin-top: 25px; background-color: aliceblue;"><source src="https://axthauvin.github.io/Videos/Animation_Unity.mp4" type="video/mp4">Votre navigateur ne supporte pas cette vidéo.</video> -->
 {{</ hidehtml >}}
 
-Unity permets d'animer des personnages pour les rendres plus réaliste.
-Voilà un exemple d'animation de marche dans Unity.
+[//]: <> (Unity permets d'animer des personnages pour les rendres plus réaliste.)
+[//]: <> ( Voilà un exemple d'animation de marche dans Unity.)
 
 
 # La formation

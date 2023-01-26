@@ -22,7 +22,7 @@ languages:
               Title : Axel Thauvin
               ImageCover : "../ID_axel_carre.png"
               Subtitle : Passionate about computers and programming
-              LastNews : Last news 📰
+              LastNews : Latest projects 📰
               Contents :
                   - text: Here I will post [***my projects***](../projects), as well as my various offers of [***online courses***](/cours).
                   - text: You can find my *resume* [***here***](/cv).
@@ -63,7 +63,7 @@ params:
         Contents :
             - text: Ici je posterai [***mes projets***](/projets), ainsi que mes différentes offres de [***cours en ligne***](/cours).
             - text: Vous pouvez trouver mon *Curriculum vitæ* [***ici***](/cv).
-        lastNews : Aux dernières nouvelles 📰
+        lastNews : Mes derniers projets 📰
 
         ImageCover : "ID_axel_carre.png"
 

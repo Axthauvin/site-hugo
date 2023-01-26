@@ -26,6 +26,8 @@ extensions : [
             font-family : Josefin Sans;
         }
 
+        p { color : rgb(218, 218, 219) }
+
     </style>  
 {{</ hidehtml >}}
 
@@ -42,7 +44,7 @@ Scratch est un outil qui permet aux débutants d'apprendre les bases de la progr
 Pour plus d'informations, regardez [le site de Scratch](https://scratch.mit.edu/)
 
 ![Voilà un exemple de code en Scratch](/Code1Scratch.png)
-*Voilà un apperçu de code avec Scratch.*
+*Voilà un aperçu de code avec Scratch.*
 
 ![Voilà un exemple de jeu réalisé en Scratch](/Code2Scratch.png)
 *Et un exemple de jeu fait sur Scratch [(Cliquez pour le voir)](https://scratch.mit.edu/projects/417981320/)*
@@ -84,7 +86,9 @@ Pour ce faire, nous passerons par la création de **petites applications**, **je
 
 
 {{< hidehtml  >}}
-    <iframe src="https://scratch.mit.edu/projects/449721134/embed" allowtransparency="true" width="850" height="530" frameborder="0" scrolling="no" allowfullscreen></iframe>
+    <iframe src="https://scratch.mit.edu/projects/619231679/embed" allowtransparency="true" width="850" height="530" frameborder="0" scrolling="no" allowfullscreen></iframe>
+    <!-- 
+    <iframe src="https://scratch.mit.edu/projects/449721134/embed" allowtransparency="true" width="850" height="530" frameborder="0" scrolling="no" allowfullscreen></iframe> -->
 {{</ hidehtml >}}
 
 
