@@ -29,8 +29,6 @@ languages:
               
       menu:
           main:
-              
-              
               - identifier: porfolio
                 name: Portfolio
                 url: /projets/
