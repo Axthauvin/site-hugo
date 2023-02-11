@@ -7761,7 +7761,7 @@ footer a:not(.nav-link) {
         <div class="col-lg-8 col-md-7 text-center text-md-start">
           <h2 class="h1 mt-2 text-white" data-aos="fade-left" data-aos-delay="0">Axel Thauvin</h2>
           <p data-aos="fade-left" data-aos-delay="100">Étudiant à l'EPITA</p>
-          <p data-aos="fade-left" data-aos-delay="100">18 ans</p>
+          <p data-aos="fade-left" data-aos-delay="100" id="ageduaxel">--age--</p>
           <div class="d-print-none" data-aos="fade-left" data-aos-delay="200"><a class="btn btn-light text-dark shadow-sm mt-1 me-1" href="../CV_Axel_Thauvin_Jan23.pdf" target="_blank">Télécharger mon CV</a><a class="btn btn-success shadow-sm mt-1 text-white" href="#contact">Me contacter</a></div>
         </div>
       </div>
@@ -7910,6 +7910,7 @@ footer a:not(.nav-link) {
       <script src="scripts/bootstrap.bundle.min.js?ver=1.2.0"></script>
       <script src="scripts/aos.js?ver=1.2.0"></script>
       <script src="scripts/main.js?ver=1.2.0"></script>
+
     
 </article>
 </html>
@@ -7930,6 +7931,6 @@ footer a:not(.nav-link) {
 
   monage = getAge("2004/09/10");
 
-  document.getElementById("ageduaxel").textContent = monage
+  document.getElementById("ageduaxel").textContent = monage + " ans"
   
 </script>
