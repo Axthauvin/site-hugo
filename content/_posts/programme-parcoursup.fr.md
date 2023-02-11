@@ -29,15 +29,17 @@ params:
 ---
 
 
+{{< encadres type="danger" titre="⚠️ Cette page est encore en construction" >}}
+ Afin de d'avoir la meilleur description du projet possible, je prends le temps de m'assurer que cette dernière soit travaillée au maximum avant de la publier.
+{{< /encadres >}}
+
+
 # Fonctionnement du programme :
 
 À la demande du chef  d'établissement du [Lycée Notre Dame de Bourg-la-Reine](http://www.indblr.asso.fr/), j'ai conçu et réalisé, en respectant  le cahier des charges demandé, un site internet permettant de s'orienter sur Parcoursup grâce aux données fournies grâce aux élèves des années précedentes. Le site internet est disponible à cette adresse [Programme Parcoursup](https://programmeparcoursup-ind.netlify.app/) et est accessible aussi bien sur ordinateur que sur téléphone
 
 
 
-{{< encadres type="attention" titre="📌 Cette page est encore en construction" >}}
- Afin de d'avoir la meilleur description du projet possible, je prends le temps de m'assurer que cette dernière soit travaillée au maximum avant de la publier.
-{{< /encadres >}}
 
 <!--
 
