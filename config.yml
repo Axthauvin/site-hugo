@@ -21,7 +21,7 @@ languages:
           homeInfoParams :
               Title : Axel Thauvin
               ImageCover : "../ID_axel_carre.png"
-              Subtitle : Passionate about computers and programming
+              Subtitle : Student in 2nd year at EPITA
               LastNews : Latest projects 📰
               Contents :
                   - text: Here I will post [***my projects***](../projects), as well as my various offers of [***online courses***](/cours).
@@ -29,6 +29,10 @@ languages:
               
       menu:
           main:
+              - identifier: accueil
+                name: Accueil
+                url: /
+                weight : 10
               - identifier: porfolio
                 name: Portfolio
                 url: /projets/
@@ -56,16 +60,16 @@ params:
     
     homeInfoParams:
         Title: Axel Thauvin
-        Subtitle: Passionné d'informatique et de programmation
+        Subtitle: Étudiant en 2<sup>ème</sup> année à l'EPITA
 
         Contents :
-            - text: Ici je posterai [***mes projets***](/projets), ainsi que mes différentes offres de [***cours en ligne***](/cours).
+            - text: Voir [***mes projets***](/projets), ainsi que mes différentes offres de [***cours en ligne***](/cours).
             - text: Vous pouvez trouver mon *Curriculum vitæ* [***ici***](/cv).
         lastNews : Mes derniers projets 📰
 
         ImageCover : "ID_axel_carre.png"
 
-        #buttons:
+        buttons:
             #- name: Archive
               #url: "/archive"
             #- name: Github
@@ -117,6 +121,10 @@ params:
 menu:
     main:
         
+        - identifier: accueil
+          name: Accueil
+          url: /
+          weight : 10
         
         - identifier: porfolio
           name: Portfolio

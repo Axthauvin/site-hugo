@@ -36,6 +36,7 @@
         position: absolute;
         z-index: -1;
         top : calc(-1.5 * var(--header-height));
+        top: 0px;
     }
 
     .entry-header {
@@ -54,6 +55,10 @@
 
     .little-things p {
         font-size: 1rem;
+    }
+
+    .header {
+        background-color: #28354296;
     }
 
     .little-things {
@@ -82,10 +87,7 @@
 
         }
 
-        .header {
-            background-color: #293948;
-            background: --theme;
-        }
+        
 
        .first-entry {
            margin-top: 0px;
@@ -115,7 +117,7 @@
         <div class="lediv" style="display: flex; justify-content: center; width: 100%; flex-direction: column; align-items: center;">
             <img src="{{ .ImageCover }}">
             <h1 style="text-align: center;">{{ .Title | markdownify }}</h1>
-            <h3 style="margin-top: 8px; text-align: center;">{{ .Subtitle | markdownify }}</h3>
+            <h3 style="margin-top: 8px; text-align: center;">{{ .Subtitle | safeHTML }}</h3>
         </div>
         
    
