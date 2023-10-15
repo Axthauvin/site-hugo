@@ -2,7 +2,8 @@
     --gap: 24px;
     --content-gap: 20px;
     --nav-width: 1380px;
-    --main-width: 720px;
+    /*--main-width: 720px;*/ /*Valeur par défaut de paper mod)*/
+    --main-width: 50%;
     --article-width: 650px;
     --toc-width: 300px;
     --header-height: 60px;

@@ -3,6 +3,9 @@
     min-height: calc(100vh - var(--header-height) - var(--footer-height));
     max-width: calc(var(--main-width) + var(--gap) * 2);
     margin: auto;
+    /*
+    margin-left: 20%;
+    margin-right: 20%;*/
     padding: var(--gap);
 }
 

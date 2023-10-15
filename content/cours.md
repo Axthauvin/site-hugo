@@ -25,6 +25,13 @@ Il y en a pour tous les goûts, n'hésitez pas à jeter un œil aux différentes
         a {
             display : inline;
         }
+
+        .main {
+            margin : auto;
+            max-width : none;
+            display : flex;
+            justify-content : center;
+        }
     </style>
     <div style="text-align : center">
         <a href="/cours-things/scratch">

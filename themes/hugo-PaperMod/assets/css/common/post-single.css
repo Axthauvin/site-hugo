@@ -1,6 +1,7 @@
 .page-header,
 .post-header {
     margin: 24px auto var(--content-gap) auto;
+    margin-left: 3%;
 }
 
 .post-title {
@@ -262,7 +263,7 @@
     border: 1px solid var(--border);
     background: var(--entry);
     border-radius: var(--radius);
-    padding: 0.4em;
+    padding: 0.8em;
 }
 
 .toc-container.wide {
