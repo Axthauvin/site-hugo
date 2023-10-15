@@ -1,5 +1,5 @@
 ---
-title: "ParcoursupExplorer"
+title: "Parcoursup Explorer"
 date: 2022-07-20T21:18:50+02:00
 draft: false
 
