@@ -7,6 +7,11 @@
     margin-left: 20%;
     margin-right: 20%;*/
     padding: var(--gap);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 
 .main.page {
