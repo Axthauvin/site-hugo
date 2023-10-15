@@ -1,6 +1,11 @@
 
 
 <style>
+
+    :root{
+        --main-width: 50%;
+    }
+
     img {
         border-radius: 50%;
         width: 12rem;
@@ -30,6 +35,7 @@
         border-radius: 0;
         position: absolute;
         z-index: -1;
+        top : calc(-1.5 * var(--header-height));
     }
 
     .entry-header {
@@ -102,6 +108,8 @@
 
 {{- with $.Site.Params.homeInfoParams }}
 
+<img class="backimage" src="/wave-svg3.svg">
+
 <article class="first-entry home-info">
     <header class="entry-header" style="overflow: visible;" id="f">
         <div class="lediv" style="display: flex; justify-content: center; width: 100%; flex-direction: column; align-items: center;">
@@ -138,7 +146,7 @@
         </footer>
     </div>
     
-    <img class="backimage" src="/wave-svg3.svg">
+    
     
 </article>
 

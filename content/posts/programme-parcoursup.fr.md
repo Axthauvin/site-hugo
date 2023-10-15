@@ -1,5 +1,5 @@
 ---
-title: "Programme Parcoursup"
+title: "ParcoursupExplorer"
 date: 2022-07-20T21:18:50+02:00
 draft: false
 
@@ -36,8 +36,51 @@ params:
 
 # Fonctionnement du programme :
 
-À la demande du chef  d'établissement du [Lycée Notre Dame de Bourg-la-Reine](http://www.indblr.asso.fr/), j'ai conçu et réalisé, en respectant  le cahier des charges demandé, un site internet permettant de s'orienter sur Parcoursup grâce aux données fournies grâce aux élèves des années précedentes. Le site internet est disponible à cette adresse [Programme Parcoursup](https://programmeparcoursup-ind.netlify.app/) et est accessible aussi bien sur ordinateur que sur téléphone
+Afin d'aider les lycéens dans leur orientation, j'ai réalisé un programme de statistiques, qui se basant sur les résultats des élèves des promotions ultérieures, de savoir quelles formations ont étées obtenues par les élèves en fonctions de leur spécialitées.
+Le lycée qui souhaite disposer du programme doit alors remplir un fichier excel comportant la liste de toutes les formations où les élèves ont reçu au moins une proposition d'admission.
 
+Une version de se site Internet a été vendue à l'Institut Notre Dame de Bourg la reine, et le site internet est disponible à cette adresse [ParcoursupExplorer pour l'Institut Notre Dame](https://programme-ind-sup.alwaysdata.net/)
+
+
+![Page d'acceuil](/parcoursup-app%20main%20page.png)
+*Interface de l'application*
+
+
+# Description :
+
+Le programme se découpe en 2 parties distinctes : 
+
+- **Les propositions acceptées par les élèves** : Les formations où les élèves ont choisi d'aller au final
+
+- **Les propositions faites aux élèves** : Le programme ressence alors toutes les formations où les élèves ont été acceptés en fonction de leur spécialités (example : Prépa MPSI ou une license non sélective en informatique)
+
+## Propositions acceptées par les élèves
+
+![Formation acceptées](/parcoursup-app%20accepted.png)
+*Graphique montrant toutes les propositions acceptées par les élèves de la promotion 2023*
+
+Ce graphique permet aux élèves de voir quels sont les choix principaux des élèves, et donc d'avoir une idée des catégories de formations.
+
+Cette information est aussi utile pour le lycée, car cela lui donne une information quant aux informations les plus attractives pour les élèves.
+
+
+## Propositions faites aux élèves
+
+C'est cette partie qui est au centre du programme. Afin de mieux la comprendre, je vais décomposer l'interface.
+
+![Page principale](/parcoursup-app%20propositions%20main.png)
+*Page principale du programme*
+
+Ainsi, l'élève doit sélectionner 2 spécialités, afin que le programme soit en mesure de ressortir toutes les formations qui ont été obtenues par les élèves avec les mêmes spécialités sur une année précédente.
+
+
+![Choix spécialités](/parcoursup-app%20spes.png)
+*Choix des spécialités*
+
+Le programme trouve alors 64 alèves avec ces spécialités dans les années précédantes.
+
+![Statistiques](/parcoursup-app%20all%20forma.png)
+*Il est alors possible de sélectionner différents filtres tel que : le choix de l'option, rt le choix de la 3ème spécialité abandonnée.*
 
 
 
@@ -90,7 +133,7 @@ Les quelques champs facilitent l'utilisation du programme.
 
 {{< encadres type="note" titre="💡Informations" >}}
   Statut : Terminé <br>
-  Langage utilisé : <a href="https://developer.mozilla.org/fr/docs/Web/JavaScript">Javascript</a> | Library <a href="https://www.chartjs.org/">ChartJS</a> <br>
+  Langage utilisé : <a href="https://developer.mozilla.org/fr/docs/Web/JavaScript">Javascript</a>, <a href="https://php.net">PHP</a> | Library <a href="https://www.chartjs.org/">ChartJS</a> <br>
 {{< /encadres >}}
 
 
