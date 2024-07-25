@@ -7,7 +7,7 @@ defaultContentLanguage: fr
 
 pagination:
   disableAliases: false
-  pagerSize: 100
+  pagerSize: 1
   path: page
 
 languages:
