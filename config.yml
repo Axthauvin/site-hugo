@@ -21,7 +21,7 @@ languages:
           homeInfoParams :
               Title : Axel Thauvin
               ImageCover : "../ID_axel_carre.png"
-              Subtitle : Student in 2nd year at EPITA
+              Subtitle : Student in 3rd year at EPITA
               LastNews : Latest projects 📰
               Contents :
                   - text: Here I will post [***my projects***](../projects), as well as my various offers of [***online courses***](/cours).
@@ -60,7 +60,7 @@ params:
     
     homeInfoParams:
         Title: Axel Thauvin
-        Subtitle: Étudiant en 2<sup>ème</sup> année à l'EPITA
+        Subtitle: Étudiant en 3<sup>ème</sup> année à l'EPITA
 
         Contents :
             - text: Voir [***mes projets***](/projets), ainsi que mes différentes offres de [***cours en ligne***](/cours).
