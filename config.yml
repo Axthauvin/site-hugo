@@ -9,15 +9,16 @@ defaultContentLanguage: fr
 languages:
   fr:
       languageName : Français
-      languageAltTitle : Français
       weight: 1
+      params:
+        languageAltTitle : Français
   en:
-      dateFormat : January 2, 2006
       languageName : en
-      languageAltTitle : English
       weight: 2
       
       params :
+          dateFormat : January 2, 2006
+          languageAltTitle : English
           homeInfoParams :
               Title : Axel Thauvin
               ImageCover : "../ID_axel_carre.png"
@@ -110,6 +111,7 @@ params:
     linkFullImages: true
     ShowReadingTime: true
     comments: true
+    ShowAuthor: true
 
     ShowToc: true
     TocOpen: false  

@@ -1,21 +1,18 @@
-{{- $scratch := newScratch }}
 
 {{- if not .Date.IsZero -}}
-{{- $scratch.Add "meta" (slice (printf "<span style='text-transform : capitalize;' title='%s'>%s</span>" (.Date) (.Date | time.Format (default "2 January 2006" .Site.Params.DateFormat)))) }}
+<span style='text-transform : capitalize;' title='{{ .Date }}'>{{ .Date | time.Format (default "2 January 2006" .Site.Params.DateFormat) }}</span>
 {{- end }}
 
 {{- if (.Param "ShowReadingTime") -}}
-{{- $scratch.Add "meta" (slice (i18n "read_time" .ReadingTime | default (printf "%d min" .ReadingTime))) }}
+<span>&nbsp;·&nbsp;</span>
+<span>{{ .ReadingTime | default (printf "%d min" .ReadingTime) }} min</span>
 {{- end }}
 
 {{- if (.Param "ShowWordCount") -}}
-{{- $scratch.Add "meta" (slice (i18n "words" .WordCount | default (printf "%d words" .WordCount))) }}
+<span>{{ .WordCount | default (printf "%d words" .WordCount) }} words </span>
 {{- end }}
 
-{{- with (partial "author.html" .) }}
-{{- $scratch.Add "meta" (slice .) }}
+{{- if (.Param "ShowAuthor") -}}
+<span>&nbsp;·&nbsp;</span>
+{{ (partial "author.html" .) }}
 {{- end }}
-
-{{- with ($scratch.Get "meta") }}
-{{- delimit . "&nbsp;·&nbsp;" -}}
-{{- end -}}
