@@ -25,9 +25,17 @@
     {{- $pages = where site.RegularPages "Type" "in" site.Params.mainSections }}
     {{- end }}
 
-    {{- $paginator := .Paginate $pages }}
+    <!-- Debugging output to visualize $pages
+    <div class="debug-output">
+        <h2>Debugging Output: List of Pages</h2>
+        <ul>
+        {{ range $page := $pages }}
+            <li>{{ $page.Title }} - <a href="{{ $page.Permalink }}">{{ $page.Permalink }}</a></li>
+        {{ end }}
+        </ul>
+    </div>-->
 
-    {{- if and .IsHome .Site.Params.homeInfoParams (eq $paginator.PageNumber 1) }}
+    {{- if and .IsHome .Site.Params.homeInfoParams }}
 
         {{- partial "home_info.html" . }}
 
