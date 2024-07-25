@@ -25,7 +25,6 @@
     {{- $pages = where site.RegularPages "Type" "in" site.Params.mainSections }}
     {{- end }}
 
-
     {{- $paginator := .Paginate $pages }}
 
     {{- if and .IsHome .Site.Params.homeInfoParams (eq $paginator.PageNumber 1) }}
