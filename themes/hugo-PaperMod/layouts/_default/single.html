@@ -124,7 +124,7 @@
 {{- if not (.Param "isapage") }}
 <article class="post-single">
   <div style="display: flex; align-items: center; margin-bottom: 20px;" class="contenaire">
-    <div style="width: 30%;">
+    <div style="width: 70%;">
       {{- $isHidden := .Params.cover.hidden | default .Site.Params.cover.hiddenInSingle | default .Site.Params.cover.hidden }}
       {{- partial "cover.html" (dict "cxt" . "IsHome" false "isHidden" $isHidden) }}
     </div>

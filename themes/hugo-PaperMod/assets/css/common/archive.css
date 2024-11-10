@@ -5,6 +5,7 @@
 
 .archive-year {
     margin-top: 40px;
+    width: 100%;
 }
 
 .archive-year:not(:last-of-type) {

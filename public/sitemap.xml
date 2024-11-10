@@ -1,27 +1,18 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-  xmlns:xhtml="http://www.w3.org/1999/xhtml">
-  <url>
-    <loc>/</loc>
-    <lastmod>2019-11-02T12:50:18+01:00</lastmod>
-  </url><url>
-    <loc>/posts/pathfinding/</loc>
-    <lastmod>2019-11-02T12:50:18+01:00</lastmod>
-  </url><url>
-    <loc>/posts/</loc>
-    <lastmod>2019-11-02T12:50:18+01:00</lastmod>
-  </url><url>
-    <loc>/posts/create-a-new-theme/</loc>
-    <lastmod>2014-09-28T02:13:50+00:00</lastmod>
-  </url><url>
-    <loc>/archives/</loc>
-  </url><url>
-    <loc>/categories/</loc>
-  </url><url>
-    <loc>/projets/</loc>
-  </url><url>
-    <loc>/search/</loc>
-  </url><url>
-    <loc>/tags/</loc>
-  </url>
-</urlset>
+<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  
+  <sitemap>
+    <loc>http://localhost:1313/fr/sitemap.xml</loc>
+    
+      <lastmod>2024-11-10T13:24:50+02:00</lastmod>
+    
+  </sitemap>
+  
+  <sitemap>
+    <loc>http://localhost:1313/en/sitemap.xml</loc>
+    
+      <lastmod>2024-11-10T13:24:50+02:00</lastmod>
+    
+  </sitemap>
+  
+</sitemapindex>

@@ -115,8 +115,11 @@
         </h2>
       </header>
       <section class="entry-content">
-        <p>{{- if .Description }}{{- .Description }}{{- end }}</p>
-        <p>{{ .Summary | plainify | htmlUnescape }}{{ if .Truncated }}...{{ end }}</p>
+        <p>{{- if .Description }}
+          {{- .Description }}
+          {{- else }}
+          {{- .Summary | plainify | htmlUnescape }}
+          {{- end }}</p>
       </section>
     </div>
     

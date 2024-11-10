@@ -6,6 +6,7 @@
     <style>
         .entry-cover img {
             width: 100%;
+            max-width: 120px !important;
         }
 
         figure {
@@ -22,7 +23,7 @@
         <a href="{{ (.Params.cover.image) | absURL }}" target="_blank" rel="noopener noreferrer">
     {{ end -}}
     
-    <img style="height: 120px !important; width: 120px !important; max-width: 120px !important" loading="lazy" src="{{ (.Params.cover.image) | absURL }}" alt="{{ $alt }}" >
+    <img loading="lazy" src="{{ (.Params.cover.image) | absURL }}" alt="{{ $alt }}" >
     
     
     {{- if $addLink }}</a>{{ end -}}

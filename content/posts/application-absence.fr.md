@@ -1,5 +1,6 @@
 ---
 title: "Application Absence"
+description: "Site pour signaler l'absence d'un personnel en un clic via un trombinoscope, avec notifications par mail et gestion simplifiée de la base de données."
 date: 2022-03-24T21:18:50+02:00
 draft: false
 
