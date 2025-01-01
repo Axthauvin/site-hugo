@@ -96,18 +96,6 @@
                 href="http://localhost:1313/posts/pathfinding/"
                 />
   </url><url>
-    <loc>http://localhost:1313/cv-template/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://localhost:1313/en/cv-template/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="http://localhost:1313/cv-template/"
-                />
-  </url><url>
     <loc>http://localhost:1313/categories/</loc>
     <xhtml:link
                 rel="alternate"
