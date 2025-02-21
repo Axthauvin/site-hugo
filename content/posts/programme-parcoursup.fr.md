@@ -29,13 +29,6 @@ params:
 ---
 
 
-{{< encadres type="danger" titre="⚠️ Cette page est encore en construction" >}}
- Afin de d'avoir la meilleur description du projet possible, je prends le temps de m'assurer que cette dernière soit travaillée au maximum avant de la publier.
-{{< /encadres >}}
-
-
-# Fonctionnement du programme :
-
 Afin d'aider les lycéens dans leur orientation, j'ai réalisé un programme de statistiques, qui se basant sur les résultats des élèves des promotions ultérieures, de savoir quelles formations ont étées obtenues par les élèves en fonctions de leur spécialitées.
 Le lycée qui souhaite disposer du programme doit alors remplir un fichier excel comportant la liste de toutes les formations où les élèves ont reçu au moins une proposition d'admission.
 
@@ -81,6 +74,11 @@ Le programme trouve alors 64 alèves avec ces spécialités dans les années pr�
 
 ![Statistiques](/parcoursup-app%20all%20forma.png)
 *Il est alors possible de sélectionner différents filtres tel que : le choix de l'option, rt le choix de la 3ème spécialité abandonnée.*
+
+{{< redirect href="https://parcoursup-explorer.fr">}}
+just some text
+{{< /redirect >}}
+
 
 
 

@@ -22,103 +22,9 @@
       <pubDate>Wed, 20 Jul 2022 21:18:50 +0200</pubDate>
       
       <guid>http://localhost:1313/posts/programme-parcoursup/</guid>
-      <description>&lt;style&gt;
-    .svg {
-        width: 3vh;
-        
-        vertical-align: middle;
-    }
-    .admonition {
-        margin-top: 20px;
-        padding: 0px;
-        margin-bottom: 20px;
-        border-radius: 4px;
-        text-align: left;
-        border: 0px;
-        border-left: 5px solid;
-        border-color: #438afe;
-        color: #757783;
-        background-color: #2c3441;
-        
-    }
-
-    .admonition h3 {
-        margin-top: 0px;
-        padding: 5px;
-        padding-left: 10px;
-        background-color: #2e3c56;
-    }
-
-    .admonition p {
-        padding-left: 10px;
-        padding-bottom: 16px;
-    }
-
-
-    .admonition.note { 
-        color: #a9a9b3;
-        background-color: #24393a;
-        border-color: #0bbaa2;
-        
-    }
-
-    .note h3 {
-        background-color: #204744;
-    }
-
-    .admonition.info { 
-        color: #a9a9b3;
-        background-color: #24393a;
-        border-color: #0bbaa2;
-        
-    }
-
-    .info h3 {
-        background-color: #204744;
-    }
-
-    .admonition.warning { 
-        color: #a19ea5;
-        background-color: #3f3529;
-        border-color: #fc9105;
-    }
-    .warning h3 {
-        background-color: #523e25;
-    }
-
-    .admonition.attention { 
-        color: #a19ea5;
-        background-color: #3f3529;
-        border-color: #fc9105;
-    }
-    .attention h3 {
-        background-color: #523e25;
-    }
-
-    
-
-    .admonition.danger { 
-        color: #a598a3;
-        background-color: #3f2830;
-        border-color: #f91944;
-    }
-
-    .danger h3 {
-        background-color: #512630;
-    }
-
-    .admonition-title {
-        font-weight: bold;
-        text-align: left;
-    }
-&lt;/style&gt;
-
-
-&lt;div class=&#34;admonition danger&#34; &gt;
-    &lt;h3 id=&#34;⚠️ Cette page est encore en construction&#34;&gt;⚠️ Cette page est encore en construction &lt;/h3&gt;
-    &lt;p&gt;
- Afin de d&#39;avoir la meilleur description du projet possible, je prends le temps de m&#39;assurer que cette dernière soit travaillée au maximum avant de la publier.
-&lt;/p&gt;</description>
+      <description>&lt;p&gt;Afin d&amp;rsquo;aider les lycéens dans leur orientation, j&amp;rsquo;ai réalisé un programme de statistiques, qui se basant sur les résultats des élèves des promotions ultérieures, de savoir quelles formations ont étées obtenues par les élèves en fonctions de leur spécialitées.
+Le lycée qui souhaite disposer du programme doit alors remplir un fichier excel comportant la liste de toutes les formations où les élèves ont reçu au moins une proposition d&amp;rsquo;admission.&lt;/p&gt;
+&lt;p&gt;Une version de se site Internet a été vendue à l&amp;rsquo;Institut Notre Dame de Bourg la reine, et le site internet est disponible à cette adresse &lt;a href=&#34;https://programme-ind-sup.alwaysdata.net/&#34;&gt;ParcoursupExplorer pour l&amp;rsquo;Institut Notre Dame&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -8302,7 +8208,7 @@ footer a:not(.nav-link) {
         &lt;/div&gt;
         &lt;div class=&#34;col-lg-8 col-md-7 text-center text-md-start&#34;&gt;
           &lt;h2 class=&#34;h1 mt-2 text-white&#34; data-aos=&#34;fade-left&#34; data-aos-delay=&#34;0&#34;&gt;Axel Thauvin&lt;/h2&gt;
-          &lt;p data-aos=&#34;fade-left&#34; data-aos-delay=&#34;100&#34;&gt;Étudiant à l&#39;EPITA&lt;/p&gt;</description>
+          &lt;p data-aos=&#34;fade-left&#34; data-aos-delay=&#34;100&#34;&gt;Étudiant en 3ème année à l&#39;EPITA&lt;/p&gt;</description>
     </item>
     
     <item>
