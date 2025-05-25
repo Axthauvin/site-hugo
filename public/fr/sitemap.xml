@@ -41,6 +41,9 @@
                 href="http://localhost:1313/posts/zamp/"
                 />
   </url><url>
+    <loc>http://localhost:1313/posts/chess-analyser/</loc>
+    <lastmod>2024-05-25T21:18:50+02:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/posts/programme-parcoursup/</loc>
     <lastmod>2022-07-20T21:18:50+02:00</lastmod>
   </url><url>

@@ -17,6 +17,38 @@
     </item>
     
     <item>
+      <title>Analyseur d&#39;Échecs pour Chess.com</title>
+      <link>http://localhost:1313/posts/chess-analyser/</link>
+      <pubDate>Sat, 25 May 2024 21:18:50 +0200</pubDate>
+      
+      <guid>http://localhost:1313/posts/chess-analyser/</guid>
+      <description>&lt;!-- raw HTML omitted --&gt;
+&lt;h1 id=&#34;-chess-analyzer--extension&#34;&gt;♟️ Chess Analyzer – Extension&lt;/h1&gt;
+&lt;p&gt;Analyze your games directly on &lt;a href=&#34;https://www.chess.com/&#34;&gt;chess.com&lt;/a&gt;!&lt;br&gt;
+Get powerful visual overlays, instant move insights, and improve your game with a clean and minimal interface.&lt;/p&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;hr&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;h2 id=&#34;installation&#34;&gt;Installation&lt;/h2&gt;
+&lt;h3 id=&#34;chrome-manual-install&#34;&gt;Chrome (manual install)&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;Clone or download this repo.&lt;/li&gt;
+&lt;li&gt;Go to &lt;code&gt;chrome://extensions/&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;Enable &lt;strong&gt;Developer mode&lt;/strong&gt; (top right).&lt;/li&gt;
+&lt;li&gt;Click &lt;strong&gt;“Load unpacked”&lt;/strong&gt; and select the extension folder.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&#34;firefox-manual-install&#34;&gt;Firefox (manual install)&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;Go to &lt;code&gt;about:debugging#/runtime/this-firefox&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;Click &lt;strong&gt;“Load Temporary Add-on…”&lt;/strong&gt;.&lt;/li&gt;
+&lt;li&gt;Select any file from the extension directory (e.g., &lt;code&gt;manifest.json&lt;/code&gt;).&lt;/li&gt;
+&lt;li&gt;The extension will load temporarily until Firefox restarts.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;blockquote&gt;
+&lt;p&gt;✅ A Web Store &amp;amp; AMO version will be available soon!&lt;/p&gt;</description>
+    </item>
+    
+    <item>
       <title>Parcoursup Explorer</title>
       <link>http://localhost:1313/posts/programme-parcoursup/</link>
       <pubDate>Wed, 20 Jul 2022 21:18:50 +0200</pubDate>
